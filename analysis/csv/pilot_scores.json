@@ -1,0 +1,3356 @@
+[
+ {
+  "id": "air_freshener_dispenser::correct_1",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::correct_2",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::correct_3",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::cosmos_3__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 0.0,
+  "judge_physics": null,
+  "judge_score": null,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::cosmos_3__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 6.666666666666667,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 21.081851067789195,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::cosmos_3__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 0.0,
+  "judge_physics": 30.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::grok_imagine_video_1_5__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::grok_imagine_video_1_5__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 87.5,
+  "judge_score": 93.54143466934853,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::grok_imagine_video_1_5__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 60.0,
+  "judge_physics": 100.0,
+  "judge_score": 77.45966692414834,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::kling_v3_pro__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 13.333333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 36.51483716701107,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::kling_v3_pro__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 40.0,
+  "judge_physics": 50.0,
+  "judge_score": 44.721359549995796,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::kling_v3_pro__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 86.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 93.09493362512629,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::minimax_h3__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::minimax_h3__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 13.333333333333334,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 29.814239699997195,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::minimax_h3__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::seedance_2_0__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 91.28709291752767,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::seedance_2_0__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 73.02967433402215,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::seedance_2_0__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 91.28709291752767,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::wan_2_7__101",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 20.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::wan_2_7__202",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 22.222222222222218,
+  "judge_physics": 50.0,
+  "judge_score": 33.33333333333333,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::wan_2_7__303",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "air_freshener_dispenser::wrong_1",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 40.0,
+  "judge_score": 36.51483716701107,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "air_freshener_dispenser::wrong_2",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge",
+  "human_task": 2777.7777777777774,
+  "human_physics": 2500.0,
+  "human_score": 91.28709291752767
+ },
+ {
+  "id": "air_freshener_dispenser::wrong_3",
+  "case_id": "air_freshener_dispenser",
+  "domain": "Household Org/Storage",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 50.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge",
+  "human_task": 1481.4814814814818,
+  "human_physics": 2500.0,
+  "human_score": 65.97329617695036
+ },
+ {
+  "id": "aromatic_cube_leaf::correct_1",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::correct_2",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::correct_3",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::cosmos_3__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 50.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::cosmos_3__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 0.0,
+  "judge_physics": null,
+  "judge_score": null,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::cosmos_3__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 22.222222222222218,
+  "judge_physics": 50.0,
+  "judge_score": 33.33333333333333,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::grok_imagine_video_1_5__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::grok_imagine_video_1_5__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::grok_imagine_video_1_5__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::kling_v3_pro__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::kling_v3_pro__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 80.50764858994133,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::kling_v3_pro__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::minimax_h3__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::minimax_h3__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 100.0,
+  "judge_score": 88.19171036881968,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::minimax_h3__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::seedance_2_0__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::seedance_2_0__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::seedance_2_0__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::wan_2_7__101",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::wan_2_7__202",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 54.43310539518173,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::wan_2_7__303",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 16.666666666666664,
+  "judge_score": 30.429030972509228,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "aromatic_cube_leaf::wrong_1",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 66.66666666666667,
+  "configuration": "ego2actjudge",
+  "human_task": 2222.222222222222,
+  "human_physics": 2500.0,
+  "human_score": 81.64965809277261
+ },
+ {
+  "id": "aromatic_cube_leaf::wrong_2",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 100.0,
+  "judge_score": 88.19171036881968,
+  "configuration": "ego2actjudge",
+  "human_task": 2966.6666666666665,
+  "human_physics": 2500.0,
+  "human_score": 94.33981132056604
+ },
+ {
+  "id": "aromatic_cube_leaf::wrong_3",
+  "case_id": "aromatic_cube_leaf",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "banknote_card_coin::correct_1",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::correct_2",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::correct_3",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::cosmos_3__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 16.666666666666668,
+  "judge_physics": 50.0,
+  "judge_score": 28.867513459481287,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::cosmos_3__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::cosmos_3__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::grok_imagine_video_1_5__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 50.0,
+  "judge_physics": 87.5,
+  "judge_score": 66.14378277661477,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::grok_imagine_video_1_5__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::grok_imagine_video_1_5__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::kling_v3_pro__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::kling_v3_pro__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 58.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::kling_v3_pro__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::minimax_h3__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::minimax_h3__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::minimax_h3__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::seedance_2_0__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 58.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::seedance_2_0__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 87.5,
+  "judge_score": 93.54143466934853,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::seedance_2_0__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 91.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 95.74271077563381,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::wan_2_7__101",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 87.5,
+  "judge_score": 81.00925873009825,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::wan_2_7__202",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::wan_2_7__303",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 70.71067811865474,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "banknote_card_coin::wrong_1",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 58.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge",
+  "human_task": 1740.7407407407409,
+  "human_physics": 2125.0,
+  "human_score": 66.55222692114299
+ },
+ {
+  "id": "banknote_card_coin::wrong_2",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge",
+  "human_task": 2250.0,
+  "human_physics": 2500.0,
+  "human_score": 82.03110365129609
+ },
+ {
+  "id": "banknote_card_coin::wrong_3",
+  "case_id": "banknote_card_coin",
+  "domain": "Others",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge",
+  "human_task": 2500.0,
+  "human_physics": 2500.0,
+  "human_score": 86.60254037844386
+ },
+ {
+  "id": "cooking_oil::correct_1",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::correct_2",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::correct_3",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::cosmos_3__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::cosmos_3__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 0.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::cosmos_3__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 8.333333333333334,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::grok_imagine_video_1_5__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::grok_imagine_video_1_5__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::grok_imagine_video_1_5__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 75.0,
+  "judge_score": 64.54972243679029,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::kling_v3_pro__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 75.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::kling_v3_pro__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 22.222222222222218,
+  "judge_physics": 50.0,
+  "judge_score": 33.33333333333333,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::kling_v3_pro__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 11.111111111111109,
+  "judge_physics": 25.0,
+  "judge_score": 16.666666666666664,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::minimax_h3__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 50.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::minimax_h3__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 41.666666666666664,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 37.26779962499649,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::minimax_h3__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::seedance_2_0__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 75.0,
+  "judge_physics": 75.0,
+  "judge_score": 75.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::seedance_2_0__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::seedance_2_0__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 25.0,
+  "judge_physics": 100.0,
+  "judge_score": 50.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::wan_2_7__101",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 60.858061945018456,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::wan_2_7__202",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 81.25,
+  "judge_score": 67.18548123582126,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::wan_2_7__303",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 41.666666666666664,
+  "judge_physics": 50.0,
+  "judge_score": 45.643546458763836,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cooking_oil::wrong_1",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 58.333333333333336,
+  "judge_physics": 25.0,
+  "judge_score": 38.18813079129867,
+  "configuration": "ego2actjudge",
+  "human_task": 1527.777777777778,
+  "human_physics": 2500.0,
+  "human_score": 67.05564425077995
+ },
+ {
+  "id": "cooking_oil::wrong_2",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge",
+  "human_task": 1759.2592592592594,
+  "human_physics": 2500.0,
+  "human_score": 72.59920593996895
+ },
+ {
+  "id": "cooking_oil::wrong_3",
+  "case_id": "cooking_oil",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 100.0,
+  "judge_score": 66.66666666666666,
+  "configuration": "ego2actjudge",
+  "human_task": 2127.777777777778,
+  "human_physics": 2290.625,
+  "human_score": 76.30040944391162
+ },
+ {
+  "id": "cut_chocolate_bar::correct_1",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::correct_2",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::correct_3",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::cosmos_3__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 5.5555555555555545,
+  "judge_physics": null,
+  "judge_score": null,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::cosmos_3__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 10.0,
+  "judge_score": 21.08185106778919,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::cosmos_3__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 38.88888888888889,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::grok_imagine_video_1_5__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 25.0,
+  "judge_score": 37.2677996249965,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::grok_imagine_video_1_5__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 81.6496580927726,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::grok_imagine_video_1_5__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 72.22222222222221,
+  "judge_physics": 80.0,
+  "judge_score": 76.0116950066092,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::kling_v3_pro__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 61.11111111111111,
+  "judge_physics": 90.0,
+  "judge_score": 74.16198487095663,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::kling_v3_pro__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::kling_v3_pro__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 50.0,
+  "judge_score": 64.54972243679028,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::minimax_h3__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 27.777777777777782,
+  "judge_physics": 100.0,
+  "judge_score": 52.70462766947299,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::minimax_h3__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 38.88888888888889,
+  "judge_physics": 100.0,
+  "judge_score": 62.36095644623236,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::minimax_h3__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 61.11111111111111,
+  "judge_physics": 100.0,
+  "judge_score": 78.17359599705715,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::seedance_2_0__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 58.333333333333336,
+  "judge_score": 69.72166887783963,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::seedance_2_0__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::seedance_2_0__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 91.28709291752767,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::wan_2_7__101",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 40.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::wan_2_7__202",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 50.0,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 40.8248290463863,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::wan_2_7__303",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 66.66666666666667,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "cut_chocolate_bar::wrong_1",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 33.333333333333336,
+  "configuration": "ego2actjudge",
+  "human_task": 2000.0,
+  "human_physics": 2500.0,
+  "human_score": 77.45966692414834
+ },
+ {
+  "id": "cut_chocolate_bar::wrong_2",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 0.0,
+  "judge_physics": null,
+  "judge_score": null,
+  "configuration": "ego2actjudge",
+  "human_task": 222.22222222222226,
+  "human_physics": 2500.0,
+  "human_score": 25.819888974716115
+ },
+ {
+  "id": "cut_chocolate_bar::wrong_3",
+  "case_id": "cut_chocolate_bar",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 100.0,
+  "judge_score": 66.66666666666666,
+  "configuration": "ego2actjudge",
+  "human_task": 2666.6666666666665,
+  "human_physics": 2500.0,
+  "human_score": 89.44271909999159
+ },
+ {
+  "id": "egg_candy_air_fryer::correct_1",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::correct_2",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::correct_3",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::cosmos_3__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 20.0,
+  "judge_score": 25.819888974716115,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::cosmos_3__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 20.0,
+  "judge_physics": 100.0,
+  "judge_score": 44.721359549995796,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::cosmos_3__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 26.666666666666668,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 29.814239699997195,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::grok_imagine_video_1_5__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::grok_imagine_video_1_5__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::grok_imagine_video_1_5__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 93.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 96.60917830792958,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::kling_v3_pro__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 93.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 96.60917830792958,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::kling_v3_pro__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::kling_v3_pro__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::minimax_h3__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::minimax_h3__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 20.0,
+  "judge_physics": 60.0,
+  "judge_score": 34.64101615137755,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::minimax_h3__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 40.0,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 57.73502691896258,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::seedance_2_0__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::seedance_2_0__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::seedance_2_0__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 93.33333333333333,
+  "judge_physics": 100.0,
+  "judge_score": 96.60917830792958,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::wan_2_7__101",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::wan_2_7__202",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 93.33333333333333,
+  "judge_physics": 80.0,
+  "judge_score": 86.40987597877147,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::wan_2_7__303",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "egg_candy_air_fryer::wrong_1",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 60.0,
+  "judge_score": 56.568542494923804,
+  "configuration": "ego2actjudge",
+  "human_task": 1666.6666666666667,
+  "human_physics": 1964.5833333333333,
+  "human_score": 61.007503339127794
+ },
+ {
+  "id": "egg_candy_air_fryer::wrong_2",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 80.0,
+  "judge_physics": 80.0,
+  "judge_score": 80.0,
+  "configuration": "ego2actjudge",
+  "human_task": 2166.6666666666665,
+  "human_physics": 1771.875,
+  "human_score": 67.56594315311713
+ },
+ {
+  "id": "egg_candy_air_fryer::wrong_3",
+  "case_id": "egg_candy_air_fryer",
+  "domain": "Kitchen/Food Prep",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "handcuffs_stethoscope::correct_1",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::correct_2",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::correct_3",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::cosmos_3__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 40.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::cosmos_3__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::cosmos_3__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 20.0,
+  "judge_physics": 100.0,
+  "judge_score": 44.721359549995796,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::grok_imagine_video_1_5__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::grok_imagine_video_1_5__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 86.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 93.09493362512629,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::grok_imagine_video_1_5__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::kling_v3_pro__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::kling_v3_pro__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::kling_v3_pro__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 70.0,
+  "judge_score": 83.66600265340756,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::minimax_h3__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::minimax_h3__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::minimax_h3__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::seedance_2_0__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 86.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 93.09493362512629,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::seedance_2_0__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 80.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::seedance_2_0__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 86.66666666666667,
+  "judge_physics": 80.0,
+  "judge_score": 83.26663997864532,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::wan_2_7__101",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 80.0,
+  "judge_score": 73.02967433402215,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::wan_2_7__202",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::wan_2_7__303",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "handcuffs_stethoscope::wrong_1",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 80.0,
+  "judge_physics": 90.0,
+  "judge_score": 84.8528137423857,
+  "configuration": "ego2actjudge",
+  "human_task": 2966.6666666666665,
+  "human_physics": 2500.0,
+  "human_score": 94.33981132056604
+ },
+ {
+  "id": "handcuffs_stethoscope::wrong_2",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 60.0,
+  "judge_score": 56.568542494923804,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "handcuffs_stethoscope::wrong_3",
+  "case_id": "handcuffs_stethoscope",
+  "domain": "Others",
+  "judge_task": 60.0,
+  "judge_physics": 75.0,
+  "judge_score": 67.08203932499369,
+  "configuration": "ego2actjudge",
+  "human_task": 1388.888888888889,
+  "human_physics": 1562.5,
+  "human_score": 49.78909578906802
+ },
+ {
+  "id": "key_lanyard::correct_1",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::correct_2",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::correct_3",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::cosmos_3__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::cosmos_3__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 13.333333333333334,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::cosmos_3__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 16.666666666666668,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::grok_imagine_video_1_5__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 83.33333333333333,
+  "judge_physics": 80.0,
+  "judge_score": 81.6496580927726,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::grok_imagine_video_1_5__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 55.00000000000001,
+  "judge_score": 60.553007081949836,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::grok_imagine_video_1_5__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 75.0,
+  "judge_physics": 80.0,
+  "judge_score": 77.45966692414834,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::kling_v3_pro__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 50.0,
+  "judge_physics": 80.0,
+  "judge_score": 63.245553203367585,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::kling_v3_pro__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::kling_v3_pro__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::minimax_h3__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 41.666666666666664,
+  "judge_physics": 100.0,
+  "judge_score": 64.54972243679028,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::minimax_h3__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 41.666666666666664,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 52.704627669472984,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::minimax_h3__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 40.0,
+  "judge_score": 51.63977794943223,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::seedance_2_0__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::seedance_2_0__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 75.0,
+  "judge_physics": 80.0,
+  "judge_score": 77.45966692414834,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::seedance_2_0__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::wan_2_7__101",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 75.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::wan_2_7__202",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 16.666666666666668,
+  "judge_physics": 85.0,
+  "judge_score": 37.63863263545405,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::wan_2_7__303",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 25.0,
+  "judge_physics": 60.0,
+  "judge_score": 38.72983346207417,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "key_lanyard::wrong_1",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 25.0,
+  "judge_physics": 100.0,
+  "judge_score": 50.0,
+  "configuration": "ego2actjudge",
+  "human_task": 1666.6666666666667,
+  "human_physics": 2187.5,
+  "human_score": 65.8248290463863
+ },
+ {
+  "id": "key_lanyard::wrong_2",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge",
+  "human_task": 1888.888888888889,
+  "human_physics": 2187.5,
+  "human_score": 69.7213595499958
+ },
+ {
+  "id": "key_lanyard::wrong_3",
+  "case_id": "key_lanyard",
+  "domain": "Household Org/Storage",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge",
+  "human_task": 1444.4444444444443,
+  "human_physics": 2500.0,
+  "human_score": 65.77927915488245
+ },
+ {
+  "id": "laptop_open::correct_1",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::correct_2",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::correct_3",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::cosmos_3__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::cosmos_3__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::cosmos_3__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 16.666666666666664,
+  "judge_score": 30.429030972509228,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::grok_imagine_video_1_5__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::grok_imagine_video_1_5__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 50.0,
+  "judge_score": 52.70462766947299,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::grok_imagine_video_1_5__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 50.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::kling_v3_pro__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::kling_v3_pro__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::kling_v3_pro__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 50.91750772173155,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::minimax_h3__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::minimax_h3__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::minimax_h3__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 50.0,
+  "judge_score": 47.14045207910316,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::seedance_2_0__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 75.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::seedance_2_0__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 81.6496580927726,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::seedance_2_0__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::wan_2_7__101",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 75.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::wan_2_7__202",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 100.0,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::wan_2_7__303",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::wrong_1",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 60.858061945018456,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "laptop_open::wrong_2",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 100.0,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge",
+  "human_task": 2294.444444444445,
+  "human_physics": 2500.0,
+  "human_score": 82.79418035008179
+ },
+ {
+  "id": "laptop_open::wrong_3",
+  "case_id": "laptop_open",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 50.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "line_marker_calculator::correct_1",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::correct_2",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::correct_3",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::cosmos_3__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 13.333333333333334,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::cosmos_3__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 20.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::cosmos_3__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 5.5555555555555545,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::grok_imagine_video_1_5__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 72.22222222222221,
+  "judge_physics": 85.0,
+  "judge_score": 78.35106182362105,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::grok_imagine_video_1_5__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 55.00000000000001,
+  "judge_score": 54.16025603090641,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::grok_imagine_video_1_5__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::kling_v3_pro__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::kling_v3_pro__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::kling_v3_pro__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 75.0,
+  "judge_score": 61.237243569579455,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::minimax_h3__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 75.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::minimax_h3__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 20.0,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 25.81988897471611,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::minimax_h3__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 100.0,
+  "judge_score": 66.66666666666666,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::seedance_2_0__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::seedance_2_0__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::seedance_2_0__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 75.0,
+  "judge_score": 61.237243569579455,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::wan_2_7__101",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 50.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::wan_2_7__202",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 86.66666666666667,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 84.98365855987976,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::wan_2_7__303",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 64.54972243679029,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "line_marker_calculator::wrong_1",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 3111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 96.60917830792958
+ },
+ {
+  "id": "line_marker_calculator::wrong_2",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 50.0,
+  "judge_physics": 70.0,
+  "judge_score": 59.16079783099616,
+  "configuration": "ego2actjudge",
+  "human_task": 2033.3333333333333,
+  "human_physics": 2500.0,
+  "human_score": 78.10249675906654
+ },
+ {
+  "id": "line_marker_calculator::wrong_3",
+  "case_id": "line_marker_calculator",
+  "domain": "Office/Study Workspace",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 100.0,
+  "judge_score": 88.19171036881968,
+  "configuration": "ego2actjudge",
+  "human_task": 2627.777777777778,
+  "human_physics": 2500.0,
+  "human_score": 88.78570643800342
+ },
+ {
+  "id": "remote_marker_stand::correct_1",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 91.28709291752769,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::correct_2",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 88.88888888888887,
+  "judge_physics": 100.0,
+  "judge_score": 94.28090415820633,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::correct_3",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::cosmos_3__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 33.333333333333336,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::cosmos_3__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 44.444444444444436,
+  "judge_physics": 50.0,
+  "judge_score": 47.14045207910316,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::cosmos_3__303",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::grok_imagine_video_1_5__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::grok_imagine_video_1_5__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::grok_imagine_video_1_5__303",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 100.0,
+  "judge_score": 88.19171036881968,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::kling_v3_pro__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 100.0,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::kling_v3_pro__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::kling_v3_pro__303",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::minimax_h3__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::minimax_h3__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::minimax_h3__303",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::seedance_2_0__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::seedance_2_0__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::seedance_2_0__303",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::wan_2_7__101",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 55.555555555555564,
+  "judge_physics": 100.0,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::wan_2_7__202",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "remote_marker_stand::wrong_1",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 1388.888888888889,
+  "human_physics": 2500.0,
+  "human_score": 64.22285251880866
+ },
+ {
+  "id": "remote_marker_stand::wrong_2",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge",
+  "human_task": 3055.555555555556,
+  "human_physics": 2500.0,
+  "human_score": 95.74271077563381
+ },
+ {
+  "id": "remote_marker_stand::wrong_3",
+  "case_id": "remote_marker_stand",
+  "domain": "Office/Study Workspace",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 2777.7777777777774,
+  "human_physics": 2500.0,
+  "human_score": 91.28709291752767
+ },
+ {
+  "id": "sock_bucket::correct_1",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::correct_2",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::correct_3",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::cosmos_3__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 0.0,
+  "judge_physics": 50.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::cosmos_3__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 22.222222222222218,
+  "judge_physics": 50.0,
+  "judge_score": 33.33333333333333,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::cosmos_3__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 11.111111111111109,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::grok_imagine_video_1_5__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::grok_imagine_video_1_5__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::grok_imagine_video_1_5__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 50.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::kling_v3_pro__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 91.28709291752769,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::kling_v3_pro__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::kling_v3_pro__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::minimax_h3__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::minimax_h3__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 50.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::minimax_h3__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 74.535599249993,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::seedance_2_0__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::seedance_2_0__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::seedance_2_0__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::wan_2_7__101",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::wan_2_7__202",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 50.91750772173155,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::wan_2_7__303",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "sock_bucket::wrong_1",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge",
+  "human_task": 3333.3333333333335,
+  "human_physics": 2500.0,
+  "human_score": 100.0
+ },
+ {
+  "id": "sock_bucket::wrong_2",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "sock_bucket::wrong_3",
+  "case_id": "sock_bucket",
+  "domain": "Household Org/Storage",
+  "judge_task": 77.77777777777779,
+  "judge_physics": 100.0,
+  "judge_score": 88.19171036881968,
+  "configuration": "ego2actjudge",
+  "human_task": 2777.777777777778,
+  "human_physics": 2500.0,
+  "human_score": 91.23425254829064
+ },
+ {
+  "id": "stack_blocks::correct_1",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::correct_2",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::correct_3",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::cosmos_3__101",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::cosmos_3__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 11.111111111111109,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::cosmos_3__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 22.222222222222218,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::grok_imagine_video_1_5__101",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 33.33333333333333,
+  "judge_score": 47.14045207910317,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::grok_imagine_video_1_5__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::grok_imagine_video_1_5__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::kling_v3_pro__101",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 50.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::kling_v3_pro__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::kling_v3_pro__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 50.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::minimax_h3__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::minimax_h3__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::seedance_2_0__101",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::seedance_2_0__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 81.6496580927726,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::seedance_2_0__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::wan_2_7__101",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::wan_2_7__202",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::wan_2_7__303",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 41.66666666666667,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "stack_blocks::wrong_1",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 0.0,
+  "judge_physics": 100.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge",
+  "human_task": 744.4444444444443,
+  "human_physics": 2500.0,
+  "human_score": 47.25815626252608
+ },
+ {
+  "id": "stack_blocks::wrong_2",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge",
+  "human_task": 2411.111111111111,
+  "human_physics": 1771.875,
+  "human_score": 71.27427939894989
+ },
+ {
+  "id": "stack_blocks::wrong_3",
+  "case_id": "stack_blocks",
+  "domain": "Others",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "toothbrush_case::correct_1",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::correct_2",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::correct_3",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::cosmos_3__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 6.666666666666667,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::cosmos_3__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 20.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::cosmos_3__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 0.0,
+  "judge_physics": null,
+  "judge_score": null,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::grok_imagine_video_1_5__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 46.666666666666664,
+  "judge_physics": 100.0,
+  "judge_score": 68.31300510639731,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::grok_imagine_video_1_5__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 40.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::grok_imagine_video_1_5__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::kling_v3_pro__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 53.333333333333336,
+  "judge_physics": 62.5,
+  "judge_score": 57.735026918962575,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::kling_v3_pro__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::kling_v3_pro__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 40.0,
+  "judge_physics": 100.0,
+  "judge_score": 63.245553203367585,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::minimax_h3__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 26.666666666666668,
+  "judge_physics": 100.0,
+  "judge_score": 51.63977794943223,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::minimax_h3__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::minimax_h3__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 0.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::seedance_2_0__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 80.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::seedance_2_0__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 80.0,
+  "judge_physics": 50.0,
+  "judge_score": 63.245553203367585,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::seedance_2_0__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::wan_2_7__101",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 60.0,
+  "judge_physics": 100.0,
+  "judge_score": 77.45966692414834,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::wan_2_7__202",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::wan_2_7__303",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 40.0,
+  "judge_physics": 100.0,
+  "judge_score": 63.245553203367585,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothbrush_case::wrong_1",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "toothbrush_case::wrong_2",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 73.33333333333334,
+  "judge_physics": 100.0,
+  "judge_score": 85.63488385776753,
+  "configuration": "ego2actjudge",
+  "human_task": 2666.6666666666665,
+  "human_physics": 2500.0,
+  "human_score": 89.44271909999159
+ },
+ {
+  "id": "toothbrush_case::wrong_3",
+  "case_id": "toothbrush_case",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 80.0,
+  "judge_physics": 100.0,
+  "judge_score": 89.44271909999159,
+  "configuration": "ego2actjudge",
+  "human_task": 1111.111111111111,
+  "human_physics": 2500.0,
+  "human_score": 57.735026918962575
+ },
+ {
+  "id": "toothpaste_water::correct_1",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 75.0,
+  "judge_physics": 100.0,
+  "judge_score": 86.60254037844386,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::correct_2",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::correct_3",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 75.0,
+  "judge_physics": 66.66666666666666,
+  "judge_score": 70.71067811865474,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::cosmos_3__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 16.666666666666668,
+  "judge_physics": 100.0,
+  "judge_score": 40.824829046386306,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::cosmos_3__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 20.0,
+  "judge_physics": 100.0,
+  "judge_score": 44.721359549995796,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::cosmos_3__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 50.0,
+  "judge_physics": 25.0,
+  "judge_score": 35.35533905932738,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::grok_imagine_video_1_5__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 75.0,
+  "judge_physics": 50.0,
+  "judge_score": 61.237243569579455,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::grok_imagine_video_1_5__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::grok_imagine_video_1_5__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::kling_v3_pro__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 50.0,
+  "judge_physics": 100.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::kling_v3_pro__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 50.0,
+  "judge_physics": 75.0,
+  "judge_score": 61.237243569579455,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::kling_v3_pro__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 91.66666666666666,
+  "judge_score": 55.277079839256665,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::minimax_h3__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 75.0,
+  "judge_physics": 81.25,
+  "judge_score": 78.06247497997998,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::minimax_h3__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 20.0,
+  "judge_physics": 100.0,
+  "judge_score": 44.721359549995796,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::minimax_h3__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 25.0,
+  "judge_physics": 50.0,
+  "judge_score": 35.35533905932738,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::seedance_2_0__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::seedance_2_0__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 100.0,
+  "judge_score": 100.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::seedance_2_0__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 100.0,
+  "judge_physics": 50.0,
+  "judge_score": 70.71067811865476,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::wan_2_7__101",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 25.0,
+  "judge_physics": 100.0,
+  "judge_score": 50.0,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::wan_2_7__202",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 66.66666666666667,
+  "judge_physics": 100.0,
+  "judge_score": 81.64965809277261,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::wan_2_7__303",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 58.333333333333336,
+  "judge_physics": 100.0,
+  "judge_score": 76.37626158259734,
+  "configuration": "ego2actjudge"
+ },
+ {
+  "id": "toothpaste_water::wrong_1",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 25.0,
+  "judge_physics": 100.0,
+  "judge_score": 50.0,
+  "configuration": "ego2actjudge",
+  "human_task": 1777.777777777778,
+  "human_physics": 1125.0,
+  "human_score": 48.98979485566356
+ },
+ {
+  "id": "toothpaste_water::wrong_2",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 33.333333333333336,
+  "judge_physics": 83.33333333333334,
+  "judge_score": 52.70462766947299,
+  "configuration": "ego2actjudge",
+  "human_task": 1666.6666666666667,
+  "human_physics": 2290.625,
+  "human_score": 66.11667452385964
+ },
+ {
+  "id": "toothpaste_water::wrong_3",
+  "case_id": "toothpaste_water",
+  "domain": "Personal Care/Utilities",
+  "judge_task": 0.0,
+  "judge_physics": 100.0,
+  "judge_score": 0.0,
+  "configuration": "ego2actjudge",
+  "human_task": 444.4444444444445,
+  "human_physics": 250.0,
+  "human_score": 11.547005383792516
+ }
+]

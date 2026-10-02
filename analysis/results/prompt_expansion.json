@@ -1,0 +1,301 @@
+{
+  "cases": [
+    "aromatic_cube_leaf",
+    "double_shoe_box",
+    "egg_candy_air_fryer",
+    "paper_binder_book",
+    "remote_marker_stand"
+  ],
+  "summary": {
+    "cosmos_3": {
+      "original_mean": 25.211934068879188,
+      "expanded_mean": 25.24080977838985,
+      "mean_delta": 0.028875709510661214,
+      "positive": 8,
+      "prompts": 15,
+      "min_delta": -43.22822118714103,
+      "max_delta": 27.044091017674784
+    },
+    "wan_2_7": {
+      "original_mean": 70.4080103266827,
+      "expanded_mean": 84.85239928454999,
+      "mean_delta": 14.444388957867286,
+      "positive": 13,
+      "prompts": 15,
+      "min_delta": -54.433105395181734,
+      "max_delta": 40.089618630362935
+    }
+  },
+  "rows": [
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "cosmos_3",
+      "variant": "1",
+      "original": 17.568209223157663,
+      "expanded": 11.111111111111109,
+      "delta": -6.457098112046554,
+      "videos": 3
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "cosmos_3",
+      "variant": "2",
+      "original": 17.568209223157663,
+      "expanded": 37.93570624858994,
+      "delta": 20.367497025432275,
+      "videos": 3
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "cosmos_3",
+      "variant": "3",
+      "original": 17.568209223157663,
+      "expanded": 0.0,
+      "delta": -17.568209223157663,
+      "videos": 3
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "cosmos_3",
+      "variant": "1",
+      "original": 20.786893258332633,
+      "expanded": 42.15583084683392,
+      "delta": 21.36893758850129,
+      "videos": 3
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "cosmos_3",
+      "variant": "2",
+      "original": 20.786893258332633,
+      "expanded": 14.142135623730951,
+      "delta": -6.644757634601682,
+      "videos": 2
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "cosmos_3",
+      "variant": "3",
+      "original": 20.786893258332633,
+      "expanded": 34.7767358281973,
+      "delta": 13.98984256986467,
+      "videos": 3
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "cosmos_3",
+      "variant": "1",
+      "original": 37.022786750765306,
+      "expanded": 54.20350197234278,
+      "delta": 17.180715221577472,
+      "videos": 3
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "cosmos_3",
+      "variant": "2",
+      "original": 37.022786750765306,
+      "expanded": 60.66713174399347,
+      "delta": 23.644344993228167,
+      "videos": 2
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "cosmos_3",
+      "variant": "3",
+      "original": 37.022786750765306,
+      "expanded": 53.69111756265662,
+      "delta": 16.668330811891316,
+      "videos": 3
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "cosmos_3",
+      "variant": "1",
+      "original": 7.4535599249993,
+      "expanded": 0.0,
+      "delta": -7.4535599249993,
+      "videos": 2
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "cosmos_3",
+      "variant": "2",
+      "original": 7.4535599249993,
+      "expanded": 8.606629658238704,
+      "delta": 1.1530697332394046,
+      "videos": 3
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "cosmos_3",
+      "variant": "3",
+      "original": 7.4535599249993,
+      "expanded": 34.497650942674085,
+      "delta": 27.044091017674784,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "cosmos_3",
+      "variant": "1",
+      "original": 43.22822118714103,
+      "expanded": 11.111111111111109,
+      "delta": -32.117110076029924,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "cosmos_3",
+      "variant": "2",
+      "original": 43.22822118714103,
+      "expanded": 0.0,
+      "delta": -43.22822118714103,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "cosmos_3",
+      "variant": "3",
+      "original": 43.22822118714103,
+      "expanded": 15.713484026367722,
+      "delta": -27.514737160773308,
+      "videos": 3
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "wan_2_7",
+      "variant": "1",
+      "original": 54.433105395181734,
+      "expanded": 51.47770179839391,
+      "delta": -2.955403596787825,
+      "videos": 3
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "wan_2_7",
+      "variant": "2",
+      "original": 54.433105395181734,
+      "expanded": 0.0,
+      "delta": -54.433105395181734,
+      "videos": 3
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "model": "wan_2_7",
+      "variant": "3",
+      "original": 54.433105395181734,
+      "expanded": 66.41127749372362,
+      "delta": 11.978172098541883,
+      "videos": 3
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "wan_2_7",
+      "variant": "1",
+      "original": 69.75227159942766,
+      "expanded": 100.0,
+      "delta": 30.247728400572342,
+      "videos": 3
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "wan_2_7",
+      "variant": "2",
+      "original": 69.75227159942766,
+      "expanded": 96.48090636666386,
+      "delta": 26.7286347672362,
+      "videos": 3
+    },
+    {
+      "case": "double_shoe_box",
+      "model": "wan_2_7",
+      "variant": "3",
+      "original": 69.75227159942766,
+      "expanded": 100.0,
+      "delta": 30.247728400572342,
+      "videos": 3
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "wan_2_7",
+      "variant": "1",
+      "original": 94.33968476223369,
+      "expanded": 98.28944326835045,
+      "delta": 3.9497585061167655,
+      "videos": 3
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "wan_2_7",
+      "variant": "2",
+      "original": 94.33968476223369,
+      "expanded": 96.10586955442615,
+      "delta": 1.7661847921924618,
+      "videos": 3
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "model": "wan_2_7",
+      "variant": "3",
+      "original": 94.33968476223369,
+      "expanded": 98.8697261026432,
+      "delta": 4.530041340409511,
+      "videos": 3
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "wan_2_7",
+      "variant": "1",
+      "original": 55.7023272974146,
+      "expanded": 88.96746200804664,
+      "delta": 33.26513471063204,
+      "videos": 3
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "wan_2_7",
+      "variant": "2",
+      "original": 55.7023272974146,
+      "expanded": 86.50843738396686,
+      "delta": 30.806110086552266,
+      "videos": 3
+    },
+    {
+      "case": "paper_binder_book",
+      "model": "wan_2_7",
+      "variant": "3",
+      "original": 55.7023272974146,
+      "expanded": 95.79194592777753,
+      "delta": 40.089618630362935,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "wan_2_7",
+      "variant": "1",
+      "original": 77.81266257915581,
+      "expanded": 100.0,
+      "delta": 22.187337420844187,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "wan_2_7",
+      "variant": "2",
+      "original": 77.81266257915581,
+      "expanded": 100.0,
+      "delta": 22.187337420844187,
+      "videos": 3
+    },
+    {
+      "case": "remote_marker_stand",
+      "model": "wan_2_7",
+      "variant": "3",
+      "original": 77.81266257915581,
+      "expanded": 93.88321936425754,
+      "delta": 16.07055678510173,
+      "videos": 3
+    }
+  ]
+}

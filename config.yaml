@@ -1,0 +1,67 @@
+# Shared settings for the baseline adapters and the video-generation pipeline.
+# Ego2ActJudge keeps its own settings in ego2act/judge/main.py (PAPER_PROVIDER).
+
+baselines:
+  api_root: https://openrouter.ai/api/v1
+  model: google/gemini-3.7-flash      # OpenRouter judge for WR-Arena, PQSG, RBench, Simple VQA
+  decoding:                           # Simple VQA single call
+    temperature: 0.0
+    reasoning_effort: minimal
+    seed: null
+    timeout_seconds: 180
+    require_parameters: true
+    max_tokens: 2048
+  video:                              # every evaluator receives the same 480p videos
+    codec: libx264
+    pixel_format: yuv420p
+    max_long_side: 854
+    max_short_side: 480
+    max_fps: 24.0
+    max_bytes: 15728640
+    crf_attempts: [23, 27, 30]
+
+generation:
+  api_root: https://openrouter.ai/api/v1
+  data_root: data/ego2act
+  protocol:
+    duration_seconds: 15
+    resolution: lowest
+    aspect_ratio: "16:9"
+    generate_audio: false
+    sample_ids: [101, 202, 303]
+  output_template: AI/{model_name}/{model_name}__seed_{sample_id}.mp4
+  video:
+    codec: libx264
+    pixel_format: yuv420p
+    max_long_side: 854
+    max_short_side: 480
+    max_fps: 24.0
+    max_bytes: 15728640
+    crf_attempts: [23, 27, 30]
+  models:
+    grok_imagine_video_1_5:
+      runner: openrouter
+      model_id: x-ai/grok-imagine-video-1.5
+    seedance_2_0:
+      runner: openrouter
+      model_id: bytedance/seedance-2.0
+    kling_v3_pro:
+      runner: openrouter
+      model_id: kwaivgi/kling-v3.0-pro
+    wan_2_7:
+      runner: openrouter
+      model_id: alibaba/wan-2.7
+      protocol:
+        duration_seconds: 10
+    cosmos_3:
+      runner: cosmos3
+      model_id: nvidia/Cosmos3-Nano     # the Nano variant of Cosmos 3; results describe this variant only
+      reason: Served locally through a Ego2Act-compatible SGLang backend.
+    minimax_h3:
+      runner: minimax_h3
+      model_id: MiniMaxAI/MiniMax-H3
+      reason: Served locally through a Ego2Act-compatible SGLang FL2VA backend.
+      protocol:
+        duration_seconds: 15
+        resolution: 480p
+        aspect_ratio: "4:3"

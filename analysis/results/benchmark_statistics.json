@@ -1,0 +1,1357 @@
+{
+  "benchmark_cases": 110,
+  "structured_cases": 110,
+  "domains": {
+    "Kitchen/Food Prep": 27,
+    "Household Org/Storage": 26,
+    "Office/Study Workspace": 25,
+    "Personal Care/Utilities": 21,
+    "Others": 11
+  },
+  "families": {
+    "A1": "Relocation, arrangement and sorting",
+    "A2": "Containment and retrieval",
+    "A3": "Opening, closing and securing",
+    "A4": "Attachment, assembly and connection",
+    "A5": "Shape and orientation change",
+    "A6": "Material transfer and mixing",
+    "A7": "Cleaning, marking and surface treatment",
+    "A8": "Cutting, tearing and separation",
+    "A9": "Device operation and activation"
+  },
+  "family_coverage": {
+    "A1": 80,
+    "A2": 66,
+    "A3": 71,
+    "A4": 24,
+    "A5": 27,
+    "A6": 16,
+    "A7": 5,
+    "A8": 3,
+    "A9": 4
+  },
+  "cooccurrence": {
+    "A1": {
+      "A1": 80,
+      "A2": 44,
+      "A3": 48,
+      "A4": 17,
+      "A5": 18,
+      "A6": 8,
+      "A7": 3,
+      "A8": 2,
+      "A9": 2
+    },
+    "A2": {
+      "A1": 44,
+      "A2": 66,
+      "A3": 50,
+      "A4": 14,
+      "A5": 11,
+      "A6": 1,
+      "A7": 1,
+      "A8": 2,
+      "A9": 1
+    },
+    "A3": {
+      "A1": 48,
+      "A2": 50,
+      "A3": 71,
+      "A4": 16,
+      "A5": 14,
+      "A6": 9,
+      "A7": 3,
+      "A8": 1,
+      "A9": 1
+    },
+    "A4": {
+      "A1": 17,
+      "A2": 14,
+      "A3": 16,
+      "A4": 24,
+      "A5": 5,
+      "A6": 1,
+      "A7": 0,
+      "A8": 0,
+      "A9": 0
+    },
+    "A5": {
+      "A1": 18,
+      "A2": 11,
+      "A3": 14,
+      "A4": 5,
+      "A5": 27,
+      "A6": 6,
+      "A7": 1,
+      "A8": 2,
+      "A9": 0
+    },
+    "A6": {
+      "A1": 8,
+      "A2": 1,
+      "A3": 9,
+      "A4": 1,
+      "A5": 6,
+      "A6": 16,
+      "A7": 3,
+      "A8": 2,
+      "A9": 3
+    },
+    "A7": {
+      "A1": 3,
+      "A2": 1,
+      "A3": 3,
+      "A4": 0,
+      "A5": 1,
+      "A6": 3,
+      "A7": 5,
+      "A8": 0,
+      "A9": 2
+    },
+    "A8": {
+      "A1": 2,
+      "A2": 2,
+      "A3": 1,
+      "A4": 0,
+      "A5": 2,
+      "A6": 2,
+      "A7": 0,
+      "A8": 3,
+      "A9": 0
+    },
+    "A9": {
+      "A1": 2,
+      "A2": 1,
+      "A3": 1,
+      "A4": 0,
+      "A5": 0,
+      "A6": 3,
+      "A7": 2,
+      "A8": 0,
+      "A9": 4
+    }
+  },
+  "action_diversity": {
+    "1": 8,
+    "2": 38,
+    "3": 45,
+    "4": 18,
+    "5": 1
+  },
+  "objects": {
+    "mean": 5.1454545454545455,
+    "counts": {
+      "2": 1,
+      "3": 10,
+      "4": 26,
+      "5": 32,
+      "6": 26,
+      "7": 9,
+      "8": 5,
+      "11": 1
+    }
+  },
+  "observed_operations": {
+    "case_means": [
+      6.333333333333333,
+      6.666666666666667,
+      3,
+      3,
+      4.666666666666667,
+      3.3333333333333335,
+      4,
+      4,
+      5.25,
+      5.666666666666667,
+      7,
+      4,
+      4.666666666666667,
+      4,
+      6,
+      4.666666666666667,
+      5,
+      4.333333333333333,
+      5.333333333333333,
+      7,
+      4,
+      8.333333333333334,
+      5,
+      4,
+      11,
+      6,
+      4.333333333333333,
+      5,
+      5,
+      7.333333333333333,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      1,
+      6,
+      5,
+      3.6666666666666665,
+      4,
+      4.333333333333333,
+      3,
+      3.3333333333333335,
+      5,
+      5.333333333333333,
+      2.6666666666666665,
+      5,
+      6,
+      6.666666666666667,
+      8.666666666666666,
+      6,
+      5,
+      7,
+      4,
+      9,
+      6,
+      6,
+      5.666666666666667,
+      6,
+      4,
+      6,
+      4,
+      8.666666666666666,
+      7,
+      4,
+      4.333333333333333,
+      6,
+      5,
+      4,
+      4,
+      4.333333333333333,
+      9.666666666666666,
+      5,
+      4.666666666666667,
+      7,
+      8,
+      4.666666666666667,
+      6.333333333333333,
+      9.666666666666666,
+      6,
+      4.333333333333333,
+      4,
+      3,
+      3.3333333333333335,
+      2.3333333333333335,
+      2.3333333333333335,
+      4,
+      4,
+      7.666666666666667,
+      9,
+      5,
+      3.5,
+      3,
+      8,
+      3,
+      3,
+      4,
+      5.333333333333333,
+      7.333333333333333,
+      3,
+      6.5,
+      7.666666666666667,
+      5.666666666666667,
+      5,
+      5.666666666666667,
+      5.666666666666667,
+      4,
+      4,
+      5
+    ],
+    "mean": 5.171969696969697
+  },
+  "durations": {
+    "correct": {
+      "n": 311,
+      "min": 5.1472,
+      "q1": 15.157219,
+      "median": 20.301,
+      "mean": 22.04328602893891,
+      "q3": 26.565832999999998,
+      "max": 68.24
+    },
+    "wrong": {
+      "n": 305,
+      "min": 4.021,
+      "q1": 10.495,
+      "median": 14.031,
+      "mean": 15.91194010819672,
+      "q3": 19.233,
+      "max": 52.129
+    }
+  },
+  "case_rows": [
+    {
+      "case": "acoustic_electric_guitar",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6.333333333333333
+    },
+    {
+      "case": "air_freshener_dispenser",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6.666666666666667
+    },
+    {
+      "case": "aromatic_cube_leaf",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "bag_shoe_rack",
+      "objects": 6,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "banknote_card_coin",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4.666666666666667
+    },
+    {
+      "case": "bed_clothes_dirty",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 3.3333333333333335
+    },
+    {
+      "case": "blue_pouch_eyedrops",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "book_miniature",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "bottle_cap",
+      "objects": 7,
+      "families": [
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 5.25
+    },
+    {
+      "case": "bottle_pot_pebble",
+      "objects": 3,
+      "families": [
+        "A1",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "mean_steps": 5.666666666666667
+    },
+    {
+      "case": "box_medal",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 7
+    },
+    {
+      "case": "broccoli_tofu_chicken",
+      "objects": 8,
+      "families": [
+        "A1",
+        "A6"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "butter_candy_mug",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4.666666666666667
+    },
+    {
+      "case": "candle_lighter",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A9"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "charge_airpods_watch",
+      "objects": 6,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "clock_bottle_container",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 4.666666666666667
+    },
+    {
+      "case": "coffee_beans",
+      "objects": 5,
+      "families": [
+        "A3",
+        "A6"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "coffee_plate_bottle",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A3"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "controller_charger",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "mean_steps": 5.333333333333333
+    },
+    {
+      "case": "controller_watch_ring",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 7
+    },
+    {
+      "case": "cooking_oil",
+      "objects": 4,
+      "families": [
+        "A3",
+        "A5",
+        "A6"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "cut_chocolate_bar",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A8"
+      ],
+      "mean_steps": 8.333333333333334
+    },
+    {
+      "case": "cutlery_sorting",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "desk_mat_tablet",
+      "objects": 3,
+      "families": [
+        "A1",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "dish_washdry",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A6",
+        "A7",
+        "A9"
+      ],
+      "mean_steps": 11
+    },
+    {
+      "case": "dock_switch_game",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "doll_helmet",
+      "objects": 5,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "double_shoe_box",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "egg_candy_air_fryer",
+      "objects": 6,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "egg_sauce_container",
+      "objects": 8,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 7.333333333333333
+    },
+    {
+      "case": "eggs_and_egg_tray",
+      "objects": 3,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 1
+    },
+    {
+      "case": "erase_whiteboard",
+      "objects": 3,
+      "families": [
+        "A2",
+        "A7"
+      ],
+      "mean_steps": 2
+    },
+    {
+      "case": "ereader_earphone",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "eyedrop_chapstick",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "eyeshadow_palette",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "figurine_toy_box",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 8
+    },
+    {
+      "case": "four_in_a_row",
+      "objects": 3,
+      "families": [
+        "A2"
+      ],
+      "mean_steps": 1
+    },
+    {
+      "case": "group_supplements",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "handcuffs_stethoscope",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "hanger_grouping",
+      "objects": 11,
+      "families": [
+        "A1",
+        "A4"
+      ],
+      "mean_steps": 3.6666666666666665
+    },
+    {
+      "case": "hat_sorting",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A4"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "headphone_mouse_book",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A4"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "ice_cream_milk_fridge",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "kendama_can",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A4",
+        "A5"
+      ],
+      "mean_steps": 3.3333333333333335
+    },
+    {
+      "case": "key_lanyard",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "keycap_eraser",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 5.333333333333333
+    },
+    {
+      "case": "laptop_open",
+      "objects": 3,
+      "families": [
+        "A1",
+        "A3"
+      ],
+      "mean_steps": 2.6666666666666665
+    },
+    {
+      "case": "laptop_setup",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "lava_toast_microwave",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "light_bulb_glasses",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6.666666666666667
+    },
+    {
+      "case": "line_marker_calculator",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A3",
+        "A5",
+        "A7"
+      ],
+      "mean_steps": 8.666666666666666
+    },
+    {
+      "case": "make_coffee",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A5",
+        "A6",
+        "A8"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "makeup_pouch",
+      "objects": 6,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "makeup_red_container",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 7
+    },
+    {
+      "case": "mango_banana_cup",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "mark_pen_board",
+      "objects": 6,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 9
+    },
+    {
+      "case": "matryoshka",
+      "objects": 7,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "matryoshka_battery",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "messy_desk_monitor",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 5.666666666666667
+    },
+    {
+      "case": "move_juice",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A3",
+        "A6"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "mug_kitchen",
+      "objects": 5,
+      "families": [
+        "A3",
+        "A6"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "oil_spray_pouch",
+      "objects": 6,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "pantry_jar_sachet",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "paper_binder_book",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 8.666666666666666
+    },
+    {
+      "case": "perfume_scissors_folder",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A3"
+      ],
+      "mean_steps": 7
+    },
+    {
+      "case": "plastic_trash_bin",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "pour_milk",
+      "objects": 3,
+      "families": [
+        "A2",
+        "A5",
+        "A6",
+        "A8"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "prepare_camera_power_storage",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "racket_backpack",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "racket_table_floor",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "radio_toy",
+      "objects": 3,
+      "families": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "remote_marker_stand",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "router_laptop_cable",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A4",
+        "A5"
+      ],
+      "mean_steps": 9.666666666666666
+    },
+    {
+      "case": "royal_flush",
+      "objects": 6,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "rugby_dumbbell",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 4.666666666666667
+    },
+    {
+      "case": "sanitary_face_wash",
+      "objects": 5,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 7
+    },
+    {
+      "case": "sauce_tissue",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A3",
+        "A5",
+        "A6"
+      ],
+      "mean_steps": 8
+    },
+    {
+      "case": "scattered_teabags",
+      "objects": 8,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4.666666666666667
+    },
+    {
+      "case": "screwdriver_wrench",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6.333333333333333
+    },
+    {
+      "case": "shoes_sandals_boxes",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 9.666666666666666
+    },
+    {
+      "case": "shoes_socks_arrange",
+      "objects": 8,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 6
+    },
+    {
+      "case": "soap_mix",
+      "objects": 5,
+      "families": [
+        "A3",
+        "A6"
+      ],
+      "mean_steps": 4.333333333333333
+    },
+    {
+      "case": "sock_bucket",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "stack_blocks",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A4"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "stack_book_laptop",
+      "objects": 2,
+      "families": [
+        "A1",
+        "A3"
+      ],
+      "mean_steps": 3.3333333333333335
+    },
+    {
+      "case": "stack_book_pen",
+      "objects": 3,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 2.3333333333333335
+    },
+    {
+      "case": "stack_cap_bottle",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A5"
+      ],
+      "mean_steps": 2.3333333333333335
+    },
+    {
+      "case": "stack_dishes_utensils",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "staple_paper",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "sunblock_powder_bottle",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 7.666666666666667
+    },
+    {
+      "case": "swap_camera_lens",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "mean_steps": 9
+    },
+    {
+      "case": "tablet_cleaner",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A3",
+        "A6",
+        "A7"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "tape_stapler_marker",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 3.5
+    },
+    {
+      "case": "tea_bags_and_cups",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A2"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "three_caps",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 8
+    },
+    {
+      "case": "three_cups_and_water",
+      "objects": 5,
+      "families": [
+        "A5",
+        "A6"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "three_shoes_and_rack",
+      "objects": 4,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "three_spice_and_weight",
+      "objects": 5,
+      "families": [
+        "A1"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "tidy_container",
+      "objects": 7,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5.333333333333333
+    },
+    {
+      "case": "tidy_personal_care_bottle",
+      "objects": 8,
+      "families": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 7.333333333333333
+    },
+    {
+      "case": "toilet_broom_towel",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 3
+    },
+    {
+      "case": "toiletries_container",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 6.5
+    },
+    {
+      "case": "toner_moisturizer_mix",
+      "objects": 6,
+      "families": [
+        "A1",
+        "A3",
+        "A6"
+      ],
+      "mean_steps": 7.666666666666667
+    },
+    {
+      "case": "toothbrush_case",
+      "objects": 4,
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "mean_steps": 5.666666666666667
+    },
+    {
+      "case": "toothbrush_trimmer",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5
+    },
+    {
+      "case": "toothpaste_water",
+      "objects": 3,
+      "families": [
+        "A3",
+        "A6",
+        "A7",
+        "A9"
+      ],
+      "mean_steps": 5.666666666666667
+    },
+    {
+      "case": "toy_fan",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 5.666666666666667
+    },
+    {
+      "case": "trophy_luggage",
+      "objects": 5,
+      "families": [
+        "A1",
+        "A5"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "vim_lunchbox",
+      "objects": 4,
+      "families": [
+        "A2",
+        "A3"
+      ],
+      "mean_steps": 4
+    },
+    {
+      "case": "water_flour",
+      "objects": 4,
+      "families": [
+        "A6",
+        "A9"
+      ],
+      "mean_steps": 5
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "judge": {
+    "task": {
+      "videos": 358,
+      "single_run_sd": 8.115745085807811,
+      "retest_r": 0.931886120343817,
+      "mean_abs_diff": 6.1561142147734325,
+      "by_source": {
+        "human_reference": {
+          "videos": 45,
+          "single_run_sd": 5.036219977305197
+        },
+        "ai": {
+          "videos": 268,
+          "single_run_sd": 8.476859644821024
+        },
+        "human_wrong": {
+          "videos": 45,
+          "single_run_sd": 8.40728503745176
+        }
+      }
+    },
+    "physics": {
+      "videos": 349,
+      "single_run_sd": 15.718191527340618,
+      "retest_r": 0.7589839824473705,
+      "mean_abs_diff": 11.105539637058262,
+      "by_source": {
+        "human_reference": {
+          "videos": 45,
+          "single_run_sd": 4.634811914358714
+        },
+        "ai": {
+          "videos": 261,
+          "single_run_sd": 17.406377768385685
+        },
+        "human_wrong": {
+          "videos": 43,
+          "single_run_sd": 11.987894949614692
+        }
+      }
+    },
+    "final": {
+      "videos": 354,
+      "single_run_sd": 10.439105736192804,
+      "retest_r": 0.8926842234244956,
+      "mean_abs_diff": 7.939835115024722,
+      "by_source": {
+        "human_reference": {
+          "videos": 45,
+          "single_run_sd": 3.602445562626459
+        },
+        "ai": {
+          "videos": 265,
+          "single_run_sd": 11.634341200601636
+        },
+        "human_wrong": {
+          "videos": 44,
+          "single_run_sd": 6.946696177238817
+        }
+      }
+    }
+  },
+  "generation": {
+    "cosmos_3": {
+      "cases": 109,
+      "mean_seed_sd": 12.299454695190985
+    },
+    "grok_imagine_video_1_5": {
+      "cases": 108,
+      "mean_seed_sd": 18.37680523312374
+    },
+    "kling_v3_pro": {
+      "cases": 107,
+      "mean_seed_sd": 14.54983314369787
+    },
+    "minimax_h3": {
+      "cases": 109,
+      "mean_seed_sd": 17.596222054598933
+    },
+    "seedance_2_0": {
+      "cases": 109,
+      "mean_seed_sd": 11.400856507987404
+    },
+    "wan_2_7": {
+      "cases": 109,
+      "mean_seed_sd": 15.580346728510728
+    }
+  }
+}

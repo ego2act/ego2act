@@ -1,0 +1,51 @@
+{
+ "description": "Average MAE of rubric scores against holistic human ratings on the pilot annotation study, with each gate removed or all gates scored independently (paper Figure 5, Table 18).",
+ "task": [
+  {
+   "variant": "Full rubric",
+   "mae": 0.292
+  },
+  {
+   "variant": "No T1",
+   "mae": 0.497
+  },
+  {
+   "variant": "No T2",
+   "mae": 0.324
+  },
+  {
+   "variant": "No T3",
+   "mae": 0.331
+  },
+  {
+   "variant": "Independent",
+   "mae": 0.306
+  }
+ ],
+ "physics": [
+  {
+   "variant": "Full rubric",
+   "mae": 0.432
+  },
+  {
+   "variant": "No P1",
+   "mae": 0.922
+  },
+  {
+   "variant": "No P2",
+   "mae": 0.456
+  },
+  {
+   "variant": "No P3",
+   "mae": 0.444
+  },
+  {
+   "variant": "No P4",
+   "mae": 0.438
+  },
+  {
+   "variant": "Independent",
+   "mae": 0.777
+  }
+ ]
+}

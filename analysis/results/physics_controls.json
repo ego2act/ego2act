@@ -1,0 +1,164 @@
+{
+  "videos": 120,
+  "recordings": 30,
+  "coverage": {
+    "judged": 120
+  },
+  "spend_usd": 4.2531,
+  "clean_false_alarm": {
+    "videos": 29,
+    "any_window_failing": 0.0,
+    "failing_gates": {}
+  },
+  "corruptions": {
+    "teleport": {
+      "pairs_judged": 30,
+      "pairs_with_physics": 29,
+      "physics_unscored_corrupted": 0,
+      "detection_physics_below_clean": 0.06896551724137931,
+      "physics_above_clean": 0.0,
+      "detection_any_window_failing": 0.06896551724137931,
+      "clean_any_window_failing_same_pairs": 0.0,
+      "physics_drop": {
+        "mean": 2.873563218390805,
+        "low": 0.0,
+        "high": 7.471264367816093,
+        "n": 29
+      },
+      "task_change": {
+        "mean": -2.4444444444444446,
+        "low": -9.11111111111111,
+        "high": 2.666666666666666,
+        "n": 30
+      },
+      "final_change": {
+        "mean": -2.893772985172059,
+        "low": -6.895429529449867,
+        "high": 0.5374524832564814,
+        "n": 29
+      },
+      "failing_gate_counts": {
+        "P3": 1,
+        "P1": 2,
+        "P4": 1
+      },
+      "most_common_failing_gate": "P1",
+      "sampling": {
+        "edit_visible_in_evidence": {
+          "videos": 29,
+          "any_window_failing": 0.10344827586206896
+        },
+        "edit_not_in_evidence": {
+          "videos": 1,
+          "any_window_failing": 0.0
+        },
+        "mean_sampled_frames_in_edit": 2.2333333333333334,
+        "inspected_edit_share": 0.06666666666666667
+      },
+      "mean_physics_clean": 100.0,
+      "mean_physics_corrupted": 97.12643678160919
+    },
+    "swap": {
+      "pairs_judged": 30,
+      "pairs_with_physics": 29,
+      "physics_unscored_corrupted": 0,
+      "detection_physics_below_clean": 0.10344827586206896,
+      "physics_above_clean": 0.0,
+      "detection_any_window_failing": 0.10344827586206896,
+      "clean_any_window_failing_same_pairs": 0.0,
+      "physics_drop": {
+        "mean": 2.64367816091954,
+        "low": 0.0,
+        "high": 6.666666666666666,
+        "n": 29
+      },
+      "task_change": {
+        "mean": -1.9417989417989425,
+        "low": -5.164021164021165,
+        "high": 1.0582010582010568,
+        "n": 30
+      },
+      "final_change": {
+        "mean": -2.2639957385234215,
+        "low": -5.238745525484605,
+        "high": 0.29026829634189694,
+        "n": 29
+      },
+      "failing_gate_counts": {
+        "P3": 3
+      },
+      "most_common_failing_gate": "P3",
+      "sampling": {
+        "edit_visible_in_evidence": {
+          "videos": 30,
+          "any_window_failing": 0.1
+        },
+        "edit_not_in_evidence": {
+          "videos": 0,
+          "any_window_failing": null
+        },
+        "mean_sampled_frames_in_edit": 4.066666666666666,
+        "inspected_edit_share": 0.13333333333333333
+      },
+      "mean_physics_clean": 100.0,
+      "mean_physics_corrupted": 97.35632183908046
+    },
+    "ghost": {
+      "pairs_judged": 30,
+      "pairs_with_physics": 29,
+      "physics_unscored_corrupted": 0,
+      "detection_physics_below_clean": 0.5517241379310345,
+      "physics_above_clean": 0.0,
+      "detection_any_window_failing": 0.5517241379310345,
+      "clean_any_window_failing_same_pairs": 0.0,
+      "physics_drop": {
+        "mean": 29.82758620689655,
+        "low": 17.902298850574716,
+        "high": 42.70114942528736,
+        "n": 29
+      },
+      "task_change": {
+        "mean": -3.0740740740740744,
+        "low": -6.296296296296295,
+        "high": -0.5555555555555557,
+        "n": 30
+      },
+      "final_change": {
+        "mean": -22.305437144909764,
+        "low": -34.30056845553267,
+        "high": -11.9864770721861,
+        "n": 29
+      },
+      "failing_gate_counts": {
+        "P3": 3,
+        "P1": 24
+      },
+      "most_common_failing_gate": "P1",
+      "sampling": {
+        "edit_visible_in_evidence": {
+          "videos": 30,
+          "any_window_failing": 0.5333333333333333
+        },
+        "edit_not_in_evidence": {
+          "videos": 0,
+          "any_window_failing": null
+        },
+        "mean_sampled_frames_in_edit": 2.9,
+        "inspected_edit_share": 0.43333333333333335
+      },
+      "mean_physics_clean": 100.0,
+      "mean_physics_corrupted": 70.17241379310344
+    }
+  },
+  "clean_vs_production": {
+    "videos": 30,
+    "physics_scored": 29,
+    "production_physics_mean": 100.0,
+    "clean_rerun_physics_mean": 100.0,
+    "clean_rerun_physics_100_share": 1.0,
+    "physics_mean_abs_diff": 0.0,
+    "production_task_mean": 89.98148148148148,
+    "clean_rerun_task_mean": 93.72222222222221,
+    "task_mean_abs_diff": 3.7407407407407405
+  }
+}

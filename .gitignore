@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.python-version
+uv.lock
+.DS_Store
+
+# Benchmark cases and videos (released separately, see data/README.md)
+data/ego2act
+data/*.json
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.MP4
+*.MOV
+!site/assets/videos/**/*.mp4
+
+# Raw judge runs, local scratch and upstream baseline checkouts
+.outputs/
+.results/
+.stale/
+.tmp/
+tmp/
+outputs/
+baselines/*/external/
+model_weights/
+*.pth
+*.pt
+
+# One-time release tooling (site, teaser, Hub packaging); kept locally, not part of the reproducible repo
+analysis/release/build_site.py
+analysis/release/make_teaser.py
+analysis/release/package_hf.py
+analysis/release/update_readme.py
+
+# Heavy data lives on the Hugging Face Hub (ego2act/ego2act-vidgen, traces/); fetch with `ego2act data pull --subset traces`
+analysis/csv/traces.jsonl
+analysis/csv/judge_plans.jsonl
+analysis/csv/baselines/
+

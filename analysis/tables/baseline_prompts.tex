@@ -1,0 +1,98 @@
+% generated from baselines/simple_vqa/method.py and baselines/rbench/prompt.py
+\paragraph{Simple VQA prompt.}
+\begin{lstlisting}[style=promptstyle]
+System: You are a concise one-shot video evaluator. Apply the rubric and emit only the function call.
+
+User: Evaluate this embodied-action video against the supplied goal in one direct pass.
+Do not generate a plan, subgoal list, dependency graph, or gate-by-gate answers.
+Do not infer hidden events. Return one structured function call containing the
+two final rubric scores and concise observable evidence.
+
+TASK COMPLETION (0-3)
+Judge only whether the requested task was attempted and completed. Ignore
+visual glitches, clipping, malformed hands, floating, teleportation, jitter,
+and impossible physics when the macro-intent and requested outcome remain
+recognizable. Use the whole goal, including multiple requested outcomes and
+their necessary ordering, but report one holistic score.
+- 0: no recognizable task-directed attempt, or behavior targets the wrong
+  source object, tool, or mechanism.
+- 1: a correct attempt begins, but the characteristic high-level action is
+  not substantially carried through end to end.
+- 2: the high-level action is substantially performed, but the required final
+  object relation, quantity, or state is materially missed or incomplete.
+- 3: the requested final state/outcomes are visibly achieved. Allow slight
+  imprecision that does not materially change the stated goal.
+Judge final-state evidence more strictly than motion appearance. A prerequisite
+or ordering failure should reduce Task when it prevents the requested sequence,
+but do not invent customary ordering requirements not implied by the goal.
+
+PHYSICAL PLAUSIBILITY (0-4 or null)
+Judge independently of Task success. Return null only when no relevant object
+or embodied movement can be inspected; a static/no-attempt clip is Task 0 and
+Physics null, not Physics 4. Otherwise assess the visible interaction as a
+causal physical event:
+- 0: object identity, count, colour/material, or traceable continuity/path
+  breaks without a licensed visible transformation.
+- 1: an object moves or changes without visible contact, support, or another
+  valid preceding trigger.
+- 2: contact/causality exists, but the interaction or material/mechanism
+  behaviour is physically impossible while it happens.
+- 3: continuity, causality, and interaction are plausible, but the resulting
+  state does not hold or change as visible forces allow.
+- 4: no visible violation of continuity, causality, interaction, or persistence.
+Allow ordinary occlusion, perspective/shadow changes, brief appearance flicker,
+and transformations visibly explained by cutting, joining, consuming, adding,
+pouring, spraying, erasing, or revealing. Do not penalize omitted task actions
+as Physics failures. Do not invent an unseen process to explain a discontinuity.
+
+For each dimension provide a numeric score (or Physics null), brief reasoning
+based on visible observations, and up to three approximate original-source time
+windows with evidence. Do not expose private chain-of-thought. Emit one
+structured function call only.
+
+Goal: <goal G>   [followed by the full video]
+\end{lstlisting}
+\paragraph{RBench first-person prompt (replaces the robot-specific wording).}
+\begin{lstlisting}[style=promptstyle]
+You are shown a 3x2 grid of six frames in chronological order (read row by
+row). The frames come from a first-person video of a person interacting with objects.
+
+Intended goal: <goal G>
+
+Identify the hand and the goal-relevant objects from the goal and visible
+frames. Evaluate the complete observed manipulation, without assuming that an
+object is present or an action succeeded merely because the goal says so.
+
+Score each aspect from 1 to 5. Be strict: 1 means failed, absent, or severely
+implausible; 3 means broadly successful with visible problems; 5 means fully
+successful and natural.
+
+1. action_execution
+   Did the visible hand perform the required action with coherent motion,
+   contact, and ordering?
+2. task_completion
+   Does the observed final state satisfy the intended goal, including required
+   intermediate state changes?
+3. object_consistency
+   Do the goal-relevant objects retain coherent identity, shape, count, and
+   state across the frames?
+4. hand_consistency
+   Does the visible hand/body remain anatomically and temporally coherent,
+   without duplication, disappearance, or impossible articulation?
+5. physical_plausibility
+   Are contact, support, gravity, containment, deformation, and object motion
+   physically plausible, without penetration, floating, teleportation, or
+   non-contact attachment?
+
+Use the original RBench final-score convention: if action_execution or
+task_completion is 1, total is 1; otherwise total is the mean of all five
+aspect scores. Return strict JSON only, with this schema:
+{
+  "action_execution": {"reason": "...", "score": 1},
+  "task_completion": {"reason": "...", "score": 1},
+  "object_consistency": {"reason": "...", "score": 1},
+  "hand_consistency": {"reason": "...", "score": 1},
+  "physical_plausibility": {"reason": "...", "score": 1},
+  "total": {"reason": "...", "score": 1.0}
+}
+\end{lstlisting}

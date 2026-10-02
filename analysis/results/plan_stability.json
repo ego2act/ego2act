@@ -1,0 +1,423 @@
+{
+  "coverage": {
+    "videos": 2545,
+    "cases": 108,
+    "task": {
+      "videos_with_plan": 2540,
+      "plans_per_case": {
+        "n": 108,
+        "mean": 23.51851851851852,
+        "median": 24.0,
+        "q1": 24.0,
+        "q3": 24.0
+      },
+      "share_distinct_plan_json_per_case": {
+        "n": 108,
+        "mean": 1.0,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "videos_with_response_id": 2540,
+      "videos_sharing_a_response_id": 0
+    },
+    "physics": {
+      "videos_with_plan": 2540,
+      "plans_per_case": {
+        "n": 108,
+        "mean": 23.51851851851852,
+        "median": 24.0,
+        "q1": 24.0,
+        "q3": 24.0
+      },
+      "share_distinct_plan_json_per_case": {
+        "n": 108,
+        "mean": 1.0,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "videos_with_response_id": 2540,
+      "videos_sharing_a_response_id": 0
+    }
+  },
+  "task": {
+    "count_stability": {
+      "cases": 108,
+      "mean_count": {
+        "n": 108,
+        "mean": 4.1483084816418145,
+        "median": 4.0,
+        "q1": 3.0,
+        "q3": 5.0
+      },
+      "sd_count": {
+        "n": 108,
+        "mean": 0.16291453545927032,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.2763853991962833
+      },
+      "cv_count": {
+        "n": 108,
+        "mean": 0.03816952609110445,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.059307741142884514
+      },
+      "modal_share": {
+        "n": 108,
+        "mean": 0.9107192961359628,
+        "median": 1.0,
+        "q1": 0.9166666666666666,
+        "q3": 1.0
+      },
+      "share_cases_constant_count": 0.7037037037037037,
+      "share_cases_range_le_1": 0.8796296296296297,
+      "pooled_share_plans_at_modal_count": 0.9094488188976378
+    },
+    "content_agreement": {
+      "matcher": "same leading action verb + Jaccard(source+target tokens) >= 0.5, greedy 1:1",
+      "pairs_per_case_max": 50,
+      "pair_f1_case_mean": {
+        "n": 108,
+        "mean": 0.685753980587314,
+        "median": 0.7075,
+        "q1": 0.5730824175824175,
+        "q3": 0.8246666666666667
+      },
+      "pair_f1_median_ci95": [
+        0.6608333333333334,
+        0.7491840909090909
+      ],
+      "pair_f1_verb_class": {
+        "n": 108,
+        "mean": 0.7869204334759891,
+        "median": 0.8138888888888889,
+        "q1": 0.67875,
+        "q3": 0.9307575757575758
+      },
+      "pair_f1_verb_class_median_ci95": [
+        0.7704761904761905,
+        0.8432041666666665
+      ],
+      "pair_f1_objects_only": {
+        "n": 108,
+        "mean": 0.9178091759063981,
+        "median": 0.9510101010101011,
+        "q1": 0.8799621212121213,
+        "q3": 0.99
+      },
+      "pair_f1_objects_only_median_ci95": [
+        0.9245000000000001,
+        0.9667857142857142
+      ],
+      "dependency_agreement_matched_pairs": 0.7942831564138637,
+      "dependency_agreement_nontrivial": 0.6032313764183522,
+      "matched_pairs": 15638,
+      "matched_pairs_with_any_requires": 8108
+    }
+  },
+  "physics": {
+    "count_stability": {
+      "cases": 108,
+      "mean_count": {
+        "n": 108,
+        "mean": 4.4437018999519,
+        "median": 4.0,
+        "q1": 3.2083333333333335,
+        "q3": 5.2064393939393945
+      },
+      "sd_count": {
+        "n": 108,
+        "mean": 0.18189650490019466,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.35380437136421383
+      },
+      "cv_count": {
+        "n": 108,
+        "mean": 0.04426471285980804,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.06855750243475196
+      },
+      "modal_share": {
+        "n": 108,
+        "mean": 0.9198803511303512,
+        "median": 1.0,
+        "q1": 0.90625,
+        "q3": 1.0
+      },
+      "share_cases_constant_count": 0.6296296296296297,
+      "share_cases_range_le_1": 0.8611111111111112,
+      "pooled_share_plans_at_modal_count": 0.9200787401574804
+    },
+    "content_agreement": {
+      "matcher": "same leading action verb + Jaccard(source+target tokens) >= 0.5, greedy 1:1",
+      "pairs_per_case_max": 50,
+      "pair_f1_case_mean": {
+        "n": 108,
+        "mean": 0.604846073679407,
+        "median": 0.5963333333333334,
+        "q1": 0.5021428571428571,
+        "q3": 0.7282142857142857
+      },
+      "pair_f1_median_ci95": [
+        0.565,
+        0.64
+      ],
+      "pair_f1_verb_class": {
+        "n": 108,
+        "mean": 0.6598616553199886,
+        "median": 0.6601825396825397,
+        "q1": 0.5575000000000001,
+        "q3": 0.7695
+      },
+      "pair_f1_verb_class_median_ci95": [
+        0.6064102564102564,
+        0.6976785714285714
+      ],
+      "pair_f1_objects_only": {
+        "n": 108,
+        "mean": 0.9213233947122836,
+        "median": 0.9403333333333334,
+        "q1": 0.88,
+        "q3": 0.9933333333333333
+      },
+      "pair_f1_objects_only_median_ci95": [
+        0.916,
+        0.9637777777777778
+      ],
+      "dependency_agreement_matched_pairs": 0.764449802424486,
+      "dependency_agreement_nontrivial": 0.5603200400050006,
+      "matched_pairs": 14931,
+      "matched_pairs_with_any_requires": 7999
+    }
+  },
+  "3a_plan_count_vs_task": {
+    "human_positive": {
+      "videos": 302,
+      "within_case_spearman_count_vs_task": -0.13560181753478148,
+      "within_case_spearman_ci95": [
+        -0.2507494545144516,
+        -0.019875180608673496
+      ],
+      "cases_with_count_variation": 17,
+      "within_case_pearson_count_vs_task": -0.15807240561443467,
+      "by_count_deviation_from_case_modal": {
+        "above_modal": {
+          "videos": 14,
+          "mean_task": 86.01190476190476,
+          "share_task_100": 0.5714285714285714
+        },
+        "below_modal": {
+          "videos": 14,
+          "mean_task": 96.42857142857143,
+          "share_task_100": 0.8571428571428571
+        },
+        "modal": {
+          "videos": 274,
+          "mean_task": 94.12930135557873,
+          "share_task_100": 0.7992700729927007
+        }
+      }
+    },
+    "all_videos": {
+      "videos": 2540,
+      "within_case_spearman_count_vs_task": -0.03532269577628851,
+      "within_case_spearman_ci95": [
+        -0.07175649150096895,
+        0.0019651167882812335
+      ],
+      "cases_with_count_variation": 32,
+      "within_case_pearson_count_vs_task": -0.035736937985423135,
+      "by_count_deviation_from_case_modal": {
+        "above_modal": {
+          "videos": 120,
+          "mean_task": 50.56547619047619,
+          "share_task_100": 0.14166666666666666
+        },
+        "below_modal": {
+          "videos": 110,
+          "mean_task": 52.85353535353536,
+          "share_task_100": 0.20909090909090908
+        },
+        "modal": {
+          "videos": 2310,
+          "mean_task": 63.22418058132344,
+          "share_task_100": 0.2896103896103896
+        }
+      }
+    }
+  },
+  "3c_humanpos_task_sd_vs_count_sd": {
+    "cases": 107,
+    "spearman": 0.08346100688868632,
+    "mean_task_sd_cases_constant_count": 4.199971633410992,
+    "mean_task_sd_cases_varying_count": 5.094287218365744,
+    "cases_constant_count": 90
+  },
+  "3b_production_vs_pilot": {
+    "definition_high_agreement": "same subgoal count and matched F1 >= 0.8 (same axis plan)",
+    "task": {
+      "videos": 358,
+      "same_plan_json_share": 0,
+      "same_count_share": 0.8547486033519553,
+      "plan_f1": {
+        "n": 358,
+        "mean": 0.6387328996267544,
+        "median": 0.6666666666666666,
+        "q1": 0.3333333333333333,
+        "q3": 1.0
+      },
+      "plan_f1_objects_only": {
+        "n": 358,
+        "mean": 0.9130474739413287,
+        "median": 1.0,
+        "q1": 0.8571428571428571,
+        "q3": 1.0
+      },
+      "spearman_absdiff_vs_dcount": 0.27287870062570674,
+      "spearman_absdiff_vs_f1": 0.0586565279575392,
+      "spearman_absdiff_vs_f1_objects_only": -0.1068916179098102,
+      "high_agreement": {
+        "videos": 139,
+        "mean_absdiff": 6.382893685051958,
+        "single_run_sd": 8.03620294517264,
+        "share_zero_diff": 0.5827338129496403
+      },
+      "rest": {
+        "videos": 219,
+        "mean_absdiff": 6.012176560121766,
+        "single_run_sd": 8.165828794895734,
+        "share_zero_diff": 0.5844748858447488
+      },
+      "all": {
+        "mean_absdiff": 6.1561142147734325,
+        "single_run_sd": 8.115745085807811
+      },
+      "spearman_absdiff_vs_f1_verb_class": -0.010712925329505447,
+      "by_dcount": {
+        "0": {
+          "videos": 306,
+          "mean_absdiff": 5.225127087872186,
+          "single_run_sd": 7.267260829535162,
+          "share_zero_diff": 0.6470588235294118
+        },
+        "1": {
+          "videos": 37,
+          "mean_absdiff": 11.531531531531533,
+          "single_run_sd": 11.269516493710013,
+          "share_zero_diff": 0.16216216216216217
+        },
+        "2": {
+          "videos": 15,
+          "mean_absdiff": 11.888888888888888,
+          "single_run_sd": 13.465777381712025,
+          "share_zero_diff": 0.3333333333333333
+        }
+      },
+      "variance_share_excess_over_same_count": 0.1981655698421001,
+      "variance_share_excess_over_high_agreement": 0.01950587281766558,
+      "spearman_absdiff_vs_f1_ci95": [
+        -0.026568486884711764,
+        0.13857168405516915
+      ],
+      "spearman_absdiff_vs_dcount_ci95": [
+        0.11711482844095622,
+        0.3735395729005784
+      ],
+      "mean_absdiff_dcount_pos_minus_zero_ci95": [
+        0.9640978018139391,
+        11.445719252188272
+      ],
+      "mean_absdiff_rest_minus_high_ci95": [
+        -2.3855249025262095,
+        1.5436259412585969
+      ]
+    },
+    "physics": {
+      "videos": 349,
+      "same_plan_json_share": 0,
+      "same_count_share": 0.9312320916905444,
+      "plan_f1": {
+        "n": 349,
+        "mean": 0.6517433855542738,
+        "median": 0.8,
+        "q1": 0.3333333333333333,
+        "q3": 1.0
+      },
+      "plan_f1_objects_only": {
+        "n": 349,
+        "mean": 0.970296704250859,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0
+      },
+      "spearman_absdiff_vs_dcount": 0.0237515045973866,
+      "spearman_absdiff_vs_f1": 0.021442709423277705,
+      "spearman_absdiff_vs_f1_objects_only": 0.02349120042916298,
+      "high_agreement": {
+        "videos": 165,
+        "mean_absdiff": 11.434343434343434,
+        "single_run_sd": 17.18328116266365,
+        "share_zero_diff": 0.6606060606060606
+      },
+      "rest": {
+        "videos": 184,
+        "mean_absdiff": 10.810688405797102,
+        "single_run_sd": 14.277096504592567,
+        "share_zero_diff": 0.5815217391304348
+      },
+      "all": {
+        "mean_absdiff": 11.105539637058262,
+        "single_run_sd": 15.718191527340618
+      },
+      "spearman_absdiff_vs_f1_verb_class": 0.073832629443947,
+      "by_dcount": {
+        "0": {
+          "videos": 325,
+          "mean_absdiff": 11.284615384615385,
+          "single_run_sd": 16.045491551999866,
+          "share_zero_diff": 0.6276923076923077
+        },
+        "1": {
+          "videos": 21,
+          "mean_absdiff": 9.126984126984127,
+          "single_run_sd": 10.716710484000378,
+          "share_zero_diff": 0.47619047619047616
+        },
+        "2": {
+          "videos": 3,
+          "mean_absdiff": 5.555555555555553,
+          "single_run_sd": 6.804138174397713,
+          "share_zero_diff": 0.6666666666666666
+        }
+      },
+      "variance_share_excess_over_same_count": -0.04207961323871179,
+      "variance_share_excess_over_high_agreement": -0.1951076872218993,
+      "spearman_absdiff_vs_f1_ci95": [
+        -0.10621648773661406,
+        0.13518662094291642
+      ],
+      "spearman_absdiff_vs_dcount_ci95": [
+        -0.02484203039761185,
+        0.07401495133629551
+      ],
+      "mean_absdiff_dcount_pos_minus_zero_ci95": [
+        -4.436804003739236,
+        0.32592177500042996
+      ],
+      "mean_absdiff_rest_minus_high_ci95": [
+        -4.628571503698552,
+        3.4277001932659608
+      ]
+    },
+    "cross": {
+      "spearman_abs_dphysics_vs_task_plan_f1": 0.06664139510663868
+    },
+    "pairs": 358,
+    "cases": 15
+  }
+}

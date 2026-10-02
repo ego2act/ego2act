@@ -1,0 +1,122 @@
+{
+  "generation_config_sha256": "8d052beaf2a565d1354a97c3e7cf4d73d96719a46bc22532b308c2f86f9c327a",
+  "case_count": 1,
+  "skipped_case_count": 0,
+  "skipped_cases": {},
+  "model_count": 1,
+  "unavailable_model_count": 0,
+  "unpriced_job_count": 0,
+  "job_count": 3,
+  "estimated_cost_usd": 0,
+  "models": {
+    "cosmos_3": {
+      "alias": "cosmos_3",
+      "runner": "cosmos3",
+      "available": true,
+      "model_id": "nvidia/Cosmos3-Nano",
+      "display_name": "cosmos_3",
+      "seed_support": true,
+      "usd_per_second": null,
+      "checks": {
+        "first_frame": true,
+        "duration": true,
+        "resolution": true,
+        "aspect_ratio": true,
+        "audio": true
+      },
+      "catalog_snapshot": null,
+      "reason": "Served locally through a Ego2Act-compatible SGLang backend.",
+      "protocol": {
+        "duration_seconds": 15,
+        "resolution": "720p",
+        "aspect_ratio": "16:9",
+        "generate_audio": false,
+        "sample_ids": [
+          101,
+          202,
+          303
+        ]
+      }
+    }
+  },
+  "jobs": [
+    {
+      "case": "toothbrush_case",
+      "goal": "Closed toothpaste and folded toothbrush stored inside the closed travel case.",
+      "prompt": "You are an action simulator. Generate a video that simulates a complete sequence of actions from the given starting frame to accomplish the goal.\n\nGoal: Closed toothpaste and folded toothbrush stored inside the closed travel case.\n\nConstraints:\n1. Use only one hand throughout the entire task.\n2. Operate strictly within the visible scene and only interact with objects visible in the starting frame.\n3. Follow realistic human-object interactions and physical laws (no teleportation, jittering, object duplication, disappearance, or other physically implausible behaviors).\n",
+      "start_image": "<ROOT>/tests/fixtures/cases/toothbrush_case/start.jpg",
+      "start_image_sha256": "2451cb93384e6d85c7503db47b72bfaf01201bdec69a53339954485ed346b7d9",
+      "model_alias": "cosmos_3",
+      "model_id": "nvidia/Cosmos3-Nano",
+      "runner": "cosmos3",
+      "runner_reason": "Served locally through a Ego2Act-compatible SGLang backend.",
+      "sample_id": 101,
+      "provider_seed": 101,
+      "protocol": {
+        "duration_seconds": 15,
+        "resolution": "720p",
+        "aspect_ratio": "16:9",
+        "generate_audio": false,
+        "sample_ids": [
+          101,
+          202,
+          303
+        ]
+      },
+      "output": "<ROOT>/tests/fixtures/cases/toothbrush_case/AI/cosmos_3/cosmos_3__seed_101.mp4",
+      "estimated_cost_usd": null
+    },
+    {
+      "case": "toothbrush_case",
+      "goal": "Closed toothpaste and folded toothbrush stored inside the closed travel case.",
+      "prompt": "You are an action simulator. Generate a video that simulates a complete sequence of actions from the given starting frame to accomplish the goal.\n\nGoal: Closed toothpaste and folded toothbrush stored inside the closed travel case.\n\nConstraints:\n1. Use only one hand throughout the entire task.\n2. Operate strictly within the visible scene and only interact with objects visible in the starting frame.\n3. Follow realistic human-object interactions and physical laws (no teleportation, jittering, object duplication, disappearance, or other physically implausible behaviors).\n",
+      "start_image": "<ROOT>/tests/fixtures/cases/toothbrush_case/start.jpg",
+      "start_image_sha256": "2451cb93384e6d85c7503db47b72bfaf01201bdec69a53339954485ed346b7d9",
+      "model_alias": "cosmos_3",
+      "model_id": "nvidia/Cosmos3-Nano",
+      "runner": "cosmos3",
+      "runner_reason": "Served locally through a Ego2Act-compatible SGLang backend.",
+      "sample_id": 202,
+      "provider_seed": 202,
+      "protocol": {
+        "duration_seconds": 15,
+        "resolution": "720p",
+        "aspect_ratio": "16:9",
+        "generate_audio": false,
+        "sample_ids": [
+          101,
+          202,
+          303
+        ]
+      },
+      "output": "<ROOT>/tests/fixtures/cases/toothbrush_case/AI/cosmos_3/cosmos_3__seed_202.mp4",
+      "estimated_cost_usd": null
+    },
+    {
+      "case": "toothbrush_case",
+      "goal": "Closed toothpaste and folded toothbrush stored inside the closed travel case.",
+      "prompt": "You are an action simulator. Generate a video that simulates a complete sequence of actions from the given starting frame to accomplish the goal.\n\nGoal: Closed toothpaste and folded toothbrush stored inside the closed travel case.\n\nConstraints:\n1. Use only one hand throughout the entire task.\n2. Operate strictly within the visible scene and only interact with objects visible in the starting frame.\n3. Follow realistic human-object interactions and physical laws (no teleportation, jittering, object duplication, disappearance, or other physically implausible behaviors).\n",
+      "start_image": "<ROOT>/tests/fixtures/cases/toothbrush_case/start.jpg",
+      "start_image_sha256": "2451cb93384e6d85c7503db47b72bfaf01201bdec69a53339954485ed346b7d9",
+      "model_alias": "cosmos_3",
+      "model_id": "nvidia/Cosmos3-Nano",
+      "runner": "cosmos3",
+      "runner_reason": "Served locally through a Ego2Act-compatible SGLang backend.",
+      "sample_id": 303,
+      "provider_seed": 303,
+      "protocol": {
+        "duration_seconds": 15,
+        "resolution": "720p",
+        "aspect_ratio": "16:9",
+        "generate_audio": false,
+        "sample_ids": [
+          101,
+          202,
+          303
+        ]
+      },
+      "output": "<ROOT>/tests/fixtures/cases/toothbrush_case/AI/cosmos_3/cosmos_3__seed_303.mp4",
+      "estimated_cost_usd": null
+    }
+  ]
+}

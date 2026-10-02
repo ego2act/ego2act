@@ -1,0 +1,8 @@
+You are an action simulator. Generate a video that simulates a complete sequence of actions from the given starting frame to accomplish the goal.
+
+Goal: Closed toothpaste and folded toothbrush stored inside the closed travel case.
+
+Constraints:
+1. Use only one hand throughout the entire task.
+2. Operate strictly within the visible scene and only interact with objects visible in the starting frame.
+3. Follow realistic human-object interactions and physical laws (no teleportation, jittering, object duplication, disappearance, or other physically implausible behaviors).

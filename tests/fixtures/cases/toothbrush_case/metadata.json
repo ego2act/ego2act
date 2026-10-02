@@ -1,0 +1,212 @@
+{
+  "goal": "Closed toothpaste and folded toothbrush stored inside the closed travel case.",
+  "action_types": [
+    "fold",
+    "insert",
+    "close"
+  ],
+  "colors": [],
+  "object_family": [
+    "container"
+  ],
+  "wrong/wrong_1.mov": {
+    "duration": 13.316,
+    "desc": "",
+    "num_steps": ""
+  },
+  "wrong/wrong_2.mov": {
+    "duration": 18.573,
+    "desc": "",
+    "num_steps": ""
+  },
+  "wrong/wrong_3.mov": {
+    "duration": 18.289,
+    "desc": "",
+    "num_steps": ""
+  },
+  "correct/correct_1.mov": {
+    "duration": 18.355,
+    "desc": "(1) Fold the travel toothbrush.; (2) Insert the folded toothbrush into the case.; (3) Fit the white cap to the toothpaste tube.; (4) Insert the capped toothpaste into the case.; (5) Close the hinged travel case.",
+    "num_steps": 5,
+    "structured_annotation": {
+      "steps": [
+        {
+          "index": 1,
+          "description": "Fold the travel toothbrush."
+        },
+        {
+          "index": 2,
+          "description": "Insert the folded toothbrush into the case."
+        },
+        {
+          "index": 3,
+          "description": "Fit the white cap to the toothpaste tube."
+        },
+        {
+          "index": 4,
+          "description": "Insert the capped toothpaste into the case."
+        },
+        {
+          "index": 5,
+          "description": "Close the hinged travel case."
+        }
+      ],
+      "objects": [
+        "black_folding_toothbrush",
+        "white_red_toothpaste_tube",
+        "white_toothpaste_cap",
+        "white_travel_case"
+      ],
+      "object_count": 4,
+      "materials": [],
+      "action_types": [
+        "fold",
+        "insert",
+        "cap",
+        "close"
+      ],
+      "action_categories": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "notes": []
+    }
+  },
+  "correct/correct_2.mov": {
+    "duration": 20.475,
+    "desc": "(1) Fit the white cap to the toothpaste tube.; (2) Insert the capped toothpaste into the case.; (3) Fold the travel toothbrush.; (4) Insert the folded toothbrush into the case.; (5) Close the hinged travel case.",
+    "num_steps": 5,
+    "structured_annotation": {
+      "steps": [
+        {
+          "index": 1,
+          "description": "Fit the white cap to the toothpaste tube."
+        },
+        {
+          "index": 2,
+          "description": "Insert the capped toothpaste into the case."
+        },
+        {
+          "index": 3,
+          "description": "Fold the travel toothbrush."
+        },
+        {
+          "index": 4,
+          "description": "Insert the folded toothbrush into the case."
+        },
+        {
+          "index": 5,
+          "description": "Close the hinged travel case."
+        }
+      ],
+      "objects": [
+        "black_folding_toothbrush",
+        "white_red_toothpaste_tube",
+        "white_toothpaste_cap",
+        "white_travel_case"
+      ],
+      "object_count": 4,
+      "materials": [],
+      "action_types": [
+        "cap",
+        "insert",
+        "fold",
+        "close"
+      ],
+      "action_categories": [
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "notes": []
+    }
+  },
+  "correct/correct_3.mov": {
+    "duration": 22.745,
+    "desc": "(1) Fold the travel toothbrush.; (2) Set the folded toothbrush on the table.; (3) Fit the white cap to the toothpaste tube.; (4) Set the capped toothpaste tube on the table.; (5) Insert the folded toothbrush into the case.; (6) Insert the capped toothpaste into the case.; (7) Close the hinged travel case.",
+    "num_steps": 7,
+    "structured_annotation": {
+      "steps": [
+        {
+          "index": 1,
+          "description": "Fold the travel toothbrush."
+        },
+        {
+          "index": 2,
+          "description": "Set the folded toothbrush on the table."
+        },
+        {
+          "index": 3,
+          "description": "Fit the white cap to the toothpaste tube."
+        },
+        {
+          "index": 4,
+          "description": "Set the capped toothpaste tube on the table."
+        },
+        {
+          "index": 5,
+          "description": "Insert the folded toothbrush into the case."
+        },
+        {
+          "index": 6,
+          "description": "Insert the capped toothpaste into the case."
+        },
+        {
+          "index": 7,
+          "description": "Close the hinged travel case."
+        }
+      ],
+      "objects": [
+        "black_folding_toothbrush",
+        "white_red_toothpaste_tube",
+        "white_toothpaste_cap",
+        "white_travel_case"
+      ],
+      "object_count": 4,
+      "materials": [],
+      "action_types": [
+        "fold",
+        "place",
+        "cap",
+        "insert",
+        "close"
+      ],
+      "action_categories": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "notes": []
+    }
+  },
+  "human_correct_summary": {
+    "num_videos": 3,
+    "mean_num_steps": 5.666666666666667,
+    "min_num_steps": 5,
+    "max_num_steps": 7,
+    "objects": [
+      "black_folding_toothbrush",
+      "white_red_toothpaste_tube",
+      "white_toothpaste_cap",
+      "white_travel_case"
+    ],
+    "object_count": 4,
+    "materials": [],
+    "primary_action_category": "A2",
+    "action_categories": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+    ],
+    "action_types": [
+      "fold",
+      "cap",
+      "place",
+      "insert",
+      "close"
+    ]
+  }
+}

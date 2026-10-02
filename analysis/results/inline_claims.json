@@ -1,0 +1,137 @@
+{
+  "sequential_vs_production": {
+    "values": {
+      "task_r": 0.907869225524788,
+      "task_videos": 371,
+      "physics_r": 0.7674932362430583,
+      "physics_videos": 356
+    },
+    "source": "analysis/csv/scores_gate_ablation.csv (seq_task, seq_physics) vs analysis/csv/scores_ego2act.csv (ego2act_task, ego2act_physics), Pearson r over videos scored in both. Paper App. G: Task r 0.91, Physics r 0.77."
+  },
+  "physics_control_inspection": {
+    "values": {
+      "teleport": {
+        "videos": 30,
+        "inspected_edit": 2,
+        "inspected_share": 0.06666666666666667,
+        "detected_of_inspected": 1
+      },
+      "swap": {
+        "videos": 30,
+        "inspected_edit": 4,
+        "inspected_share": 0.13333333333333333,
+        "detected_of_inspected": 2
+      },
+      "ghost": {
+        "videos": 30,
+        "inspected_edit": 13,
+        "inspected_share": 0.43333333333333335,
+        "detected_of_inspected": 10
+      }
+    },
+    "source": "analysis/csv/scores_physics_controls.csv: edited interval inspected (inspected_edit = 1), detected = Physics below the unedited rerun of the same recording. Paper App. G: inspected 7% / 13%, ghost detected in 10 of 13."
+  },
+  "human_control_gap": {
+    "values": {
+      "successful": 95.35243379262525,
+      "unsuccessful": 70.11284661710066,
+      "gap": 25.23958717552459,
+      "gap_of_rounded_values": 25.30000000000001
+    },
+    "source": "results/leaderboard.csv, ego2act rows human_reference and human_wrong (overall). The paper's '25.3 points above' subtracts the rounded 95.4 and 70.1; the unrounded gap is 25.24 (Mismatch M4)."
+  },
+  "leaderboard_quotes": {
+    "values": {
+      "videoscore_human_reference_overall": 87.47868421052631,
+      "videoscore_human_wrong_overall": 88.19152125279642,
+      "videoscore_cosmos_task": 84.11800411522634,
+      "videoscore_cosmos_physics": 93.10900205761317,
+      "human_cosmos_task": 16.870370370370374,
+      "human_cosmos_physics": 5.188524590163935,
+      "judge_grok_task": 67.80962179110327,
+      "judge_wan_task": 67.84209504392992
+    },
+    "source": "results/leaderboard.csv (paper App. E control checks: VideoScore 87.5 vs 88.2, Cosmos-3 84.1/93.1 vs human 16.9/5.2, Grok and Wan Task 67.8)."
+  },
+  "attachment_gaps_by_generator": {
+    "values": {
+      "grok_imagine_video_1_5": {
+        "task_completion_points": 25.426850258175566,
+        "physics_valid_points": 14.999395551257255
+      },
+      "seedance_2_0": {
+        "task_completion_points": 14.366197183098596,
+        "physics_valid_points": 6.672625127681309
+      },
+      "kling_v3_pro": {
+        "task_completion_points": 11.557358743393136,
+        "physics_valid_points": 4.1516606642657
+      },
+      "wan_2_7": {
+        "task_completion_points": 14.269680936347607,
+        "physics_valid_points": 17.197327044025158
+      },
+      "minimax_h3": {
+        "task_completion_points": 20.643846207914528,
+        "physics_valid_points": 22.464285714285715
+      },
+      "cosmos_3": {
+        "task_completion_points": 1.0889875630387167,
+        "physics_valid_points": -4.9342105263157885
+      }
+    },
+    "source": "results/subgoal_action_types.json by_model: relocation/arrangement (A1) minus attachment/connection (A4), Task completion and Physics validity rates in points. Paper App. E: 1.6-21.3 (Task); 2.4-19.2 in five of six generators (Physics; Cosmos-3 is negative)."
+  },
+  "task_length": {
+    "values": {
+      "cases": 108,
+      "spearman_duration_vs_task": -0.29331720086456714,
+      "within_budget_cases": 24,
+      "within_budget_task": 68.6329732510288,
+      "beyond_budget_cases": 84,
+      "beyond_budget_task": 54.83861908961115
+    },
+    "source": "results/robustness.json horizon (paper Sec. 5 / App. E: rho -0.29; 68.6% within the 15 s budget vs 54.8% beyond)."
+  },
+  "judge_noise_of_model_means": {
+    "values": {
+      "final": {
+        "single_run_sd_generated": 11.634341200601636,
+        "standard_error_of_model_mean": {
+          "grok_imagine_video_1_5": 0.6463522889223131,
+          "seedance_2_0": 0.6433805385194806,
+          "kling_v3_pro": 0.6433805385194806,
+          "wan_2_7": 0.6433805385194806,
+          "minimax_h3": 0.6433805385194806,
+          "cosmos_3": 0.6433805385194806
+        },
+        "max_standard_error": 0.6463522889223131
+      },
+      "physics": {
+        "single_run_sd_generated": 17.406377768385685,
+        "standard_error_of_model_mean": {
+          "grok_imagine_video_1_5": 0.967020987132538,
+          "seedance_2_0": 0.9625748900778651,
+          "kling_v3_pro": 0.9625748900778651,
+          "wan_2_7": 0.9625748900778651,
+          "minimax_h3": 0.9625748900778651,
+          "cosmos_3": 0.9625748900778651
+        },
+        "max_standard_error": 0.967020987132538
+      },
+      "task": {
+        "single_run_sd_generated": 8.476859644821024,
+        "standard_error_of_model_mean": {
+          "grok_imagine_video_1_5": 0.4709366469345013,
+          "seedance_2_0": 0.4687714095024971,
+          "kling_v3_pro": 0.4687714095024971,
+          "wan_2_7": 0.4687714095024971,
+          "minimax_h3": 0.4687714095024971,
+          "cosmos_3": 0.4687714095024971
+        },
+        "max_standard_error": 0.4709366469345013
+      }
+    },
+    "source": "results/repeatability.json (single-run SD on generated videos) divided by sqrt(videos per generator, results/validation_checks.json coverage), assuming independent judge noise. Paper App. G: 'under one point' for model means (Final)."
+  }
+}

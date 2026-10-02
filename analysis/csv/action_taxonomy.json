@@ -1,0 +1,105 @@
+{
+  "A1": {
+    "name": "Relocation, arrangement and sorting",
+    "action_types": [
+      "move",
+      "place",
+      "stack",
+      "unstack",
+      "sort",
+      "align"
+    ]
+  },
+  "A2": {
+    "name": "Containment and retrieval",
+    "action_types": [
+      "insert",
+      "pack",
+      "remove",
+      "retrieve"
+    ]
+  },
+  "A3": {
+    "name": "Opening, closing and securing",
+    "action_types": [
+      "open",
+      "close",
+      "cap",
+      "uncap",
+      "zip",
+      "unzip",
+      "latch",
+      "unlatch"
+    ]
+  },
+  "A4": {
+    "name": "Attachment, assembly and connection",
+    "action_types": [
+      "attach",
+      "detach",
+      "assemble",
+      "disassemble",
+      "plug_in",
+      "unplug",
+      "hang",
+      "unhang"
+    ]
+  },
+  "A5": {
+    "name": "Shape and orientation change",
+    "action_types": [
+      "fold",
+      "unfold",
+      "roll",
+      "unroll",
+      "flip",
+      "turn_upright",
+      "extend",
+      "retract"
+    ]
+  },
+  "A6": {
+    "name": "Material transfer and mixing",
+    "action_types": [
+      "fill",
+      "pour",
+      "scoop",
+      "dispense",
+      "mix",
+      "stir"
+    ]
+  },
+  "A7": {
+    "name": "Cleaning, marking and surface treatment",
+    "action_types": [
+      "wipe",
+      "scrub",
+      "rinse",
+      "dry",
+      "erase",
+      "apply",
+      "draw",
+      "mark"
+    ]
+  },
+  "A8": {
+    "name": "Cutting, tearing and separation",
+    "action_types": [
+      "cut",
+      "tear",
+      "break",
+      "unwrap"
+    ]
+  },
+  "A9": {
+    "name": "Device operation and activation",
+    "action_types": [
+      "switch_on",
+      "switch_off",
+      "press",
+      "ignite",
+      "extinguish",
+      "adjust_control"
+    ]
+  }
+}

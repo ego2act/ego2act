@@ -1,0 +1,665 @@
+{
+  "cases": 26,
+  "domains": {
+    "grok_imagine_video_1_5": {
+      "Household Org/Storage": {
+        "score": 63.52465678921558,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 67.43916767351539,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 75.59828184136602,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 82.40061754704381,
+        "cases": 5
+      },
+      "Others": {
+        "score": 75.71293516703196,
+        "cases": 5
+      }
+    },
+    "seedance_2_0": {
+      "Household Org/Storage": {
+        "score": 84.73726555626077,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 88.20627506817705,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 78.38466316021353,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 86.83417378304276,
+        "cases": 5
+      },
+      "Others": {
+        "score": 93.55028872737172,
+        "cases": 5
+      }
+    },
+    "kling_v3_pro": {
+      "Household Org/Storage": {
+        "score": 74.93768242057429,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 70.49770617391681,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 69.63448462683785,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 80.06558219851567,
+        "cases": 5
+      },
+      "Others": {
+        "score": 74.31320349092002,
+        "cases": 5
+      }
+    },
+    "wan_2_7": {
+      "Household Org/Storage": {
+        "score": 69.39385256783484,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 72.97073673069562,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 67.26906568505376,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 60.08304184810146,
+        "cases": 5
+      },
+      "Others": {
+        "score": 82.11551508623191,
+        "cases": 5
+      }
+    },
+    "minimax_h3": {
+      "Household Org/Storage": {
+        "score": 64.23825123010572,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 66.56322167350821,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 74.28937639691735,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 69.584725627057,
+        "cases": 5
+      },
+      "Others": {
+        "score": 70.62120112927774,
+        "cases": 5
+      }
+    },
+    "cosmos_3": {
+      "Household Org/Storage": {
+        "score": 13.031928794005566,
+        "cases": 5
+      },
+      "Kitchen/Food Prep": {
+        "score": 26.403373234728715,
+        "cases": 6
+      },
+      "Office/Study Workspace": {
+        "score": 21.93741829423933,
+        "cases": 5
+      },
+      "Personal Care/Utilities": {
+        "score": 17.868039417286152,
+        "cases": 5
+      },
+      "Others": {
+        "score": 7.602258557461123,
+        "cases": 5
+      }
+    }
+  },
+  "families": {
+    "A1": {
+      "name": "Relocation/arrangement",
+      "cases": 20,
+      "score": 65.07647919331679
+    },
+    "A2": {
+      "name": "Containment/retrieval",
+      "cases": 16,
+      "score": 67.44318202730597
+    },
+    "A3": {
+      "name": "Opening/closing",
+      "cases": 18,
+      "score": 64.48605740459575
+    },
+    "A4": {
+      "name": "Attachment/connection",
+      "cases": 7,
+      "score": 64.31777241942473
+    },
+    "A5": {
+      "name": "Shape/orientation change",
+      "cases": 6,
+      "score": 64.05991105778995
+    },
+    "A6": {
+      "name": "Material transfer/mixing",
+      "cases": 4,
+      "score": 60.372795631598336
+    },
+    "A7": {
+      "name": "Surface treatment",
+      "cases": 3,
+      "score": 62.50384301374565
+    },
+    "A8": {
+      "name": "Cutting/separation",
+      "cases": 1,
+      "score": 59.936534180634325
+    },
+    "A9": {
+      "name": "Device activation",
+      "cases": 3,
+      "score": 60.83609902947821
+    }
+  },
+  "clutter": {
+    "Heavy": {
+      "cases": 1,
+      "score": 74.91765848669691
+    },
+    "Minimal": {
+      "cases": 7,
+      "score": 67.28866550000008
+    },
+    "None": {
+      "cases": 18,
+      "score": 63.8288099405843
+    }
+  },
+  "tests": {
+    "generator": {
+      "Observed operations": {
+        "estimate": 0.04240062373012222,
+        "low": -0.3938042604133216,
+        "high": 0.45728683205808573,
+        "p": 0.8406318736252749,
+        "n": 26,
+        "q": 0.946010797840432
+      },
+      "Involved objects": {
+        "estimate": 0.32940705475278403,
+        "low": -0.09017761889130949,
+        "high": 0.6738397450350398,
+        "p": 0.09758048390321936,
+        "n": 26,
+        "q": 0.4879024195160968
+      },
+      "Reference duration": {
+        "estimate": 0.016068376068376067,
+        "low": -0.41835682365073906,
+        "high": 0.45416953824948314,
+        "p": 0.946010797840432,
+        "n": 26,
+        "q": 0.946010797840432
+      },
+      "Action-family diversity": {
+        "estimate": -0.24459979523511424,
+        "low": -0.6153213951758545,
+        "high": 0.161941553911906,
+        "p": 0.23115376924615078,
+        "n": 26,
+        "q": 0.5432246883956542
+      },
+      "Clutter (ordinal)": {
+        "estimate": 0.1985208460484427,
+        "low": -0.24142461615837935,
+        "high": 0.5602731929110787,
+        "p": 0.3259348130373925,
+        "n": 26,
+        "q": 0.5432246883956542
+      }
+    },
+    "interaction": {
+      "Relocation/arrangement": {
+        "estimate": -0.47807281516305977,
+        "low": -9.144723704744365,
+        "high": 7.985646706673037,
+        "p": 0.9182163567286543,
+        "present": 20,
+        "absent": 6,
+        "q": 0.9182163567286543
+      },
+      "Containment/retrieval": {
+        "estimate": 5.866583679274015,
+        "low": -1.4838817922898642,
+        "high": 12.747470208468393,
+        "p": 0.12577484503099381,
+        "present": 16,
+        "absent": 10,
+        "q": 0.8821092924272288
+      },
+      "Opening/closing": {
+        "estimate": -2.277425424715659,
+        "low": -10.257242883868358,
+        "high": 5.680258550363305,
+        "p": 0.5738852229554089,
+        "present": 18,
+        "absent": 8,
+        "q": 0.8821092924272288
+      },
+      "Attachment/connection": {
+        "estimate": -1.1892006848511585,
+        "low": -9.626345281460637,
+        "high": 7.699282964717767,
+        "p": 0.7718456308738252,
+        "present": 7,
+        "absent": 19,
+        "q": 0.8821092924272288
+      },
+      "Shape/orientation change": {
+        "estimate": -1.4649604207338172,
+        "low": -9.119316743873682,
+        "high": 5.612211667460421,
+        "p": 0.7398520295940811,
+        "present": 6,
+        "absent": 20,
+        "q": 0.8821092924272288
+      },
+      "Material transfer/mixing": {
+        "estimate": -5.689282249802645,
+        "low": -12.557259094584992,
+        "high": 0.4748548583354477,
+        "p": 0.27914417116576684,
+        "present": 4,
+        "absent": 22,
+        "q": 0.8821092924272288
+      },
+      "Surface treatment": {
+        "estimate": -3.0329120678186143,
+        "low": -6.955600668732956,
+        "high": 0.9105737512188838,
+        "p": 0.6126774645070986,
+        "present": 3,
+        "absent": 23,
+        "q": 0.8821092924272288
+      },
+      "Device activation": {
+        "estimate": -4.918187876120932,
+        "low": -10.100383677140861,
+        "high": 0.3382341252932122,
+        "p": 0.4217156568686263,
+        "present": 3,
+        "absent": 23,
+        "q": 0.8821092924272288
+      }
+    },
+    "judge_error": {
+      "Observed operations": {
+        "estimate": 0.16098448196721202,
+        "low": -0.2086309700356732,
+        "high": 0.48454949885836246,
+        "p": 0.4283143371325735,
+        "n": 26,
+        "q": 0.856628674265147
+      },
+      "Involved objects": {
+        "estimate": 0.039928127848822305,
+        "low": -0.36535181035149067,
+        "high": 0.4436604791249986,
+        "p": 0.8446310737852429,
+        "n": 26,
+        "q": 0.9872025594881024
+      },
+      "Reference duration": {
+        "estimate": 0.4194871794871795,
+        "low": 0.05263157894736842,
+        "high": 0.6879286694101509,
+        "p": 0.03279344131173765,
+        "n": 26,
+        "q": 0.1311737652469506
+      },
+      "Action-family diversity": {
+        "estimate": -0.006988565578146122,
+        "low": -0.38649923251239826,
+        "high": 0.3774757566199092,
+        "p": 0.9872025594881024,
+        "n": 26,
+        "q": 0.9872025594881024
+      }
+    }
+  },
+  "points": [
+    {
+      "case_id": "acoustic_electric_guitar",
+      "observed_operations": 6.333333333333333,
+      "reference_duration": 59.68666666666667,
+      "score": 76.57023012630448,
+      "domain": "Others",
+      "families": [
+        "A1",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "air_freshener_dispenser",
+      "observed_operations": 6.666666666666667,
+      "reference_duration": 28.044666666666668,
+      "score": 55.24238776421404,
+      "domain": "Household Org/Storage",
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "aromatic_cube_leaf",
+      "observed_operations": 3.0,
+      "reference_duration": 15.020276,
+      "score": 74.75936480035779,
+      "domain": "Personal Care/Utilities",
+      "families": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "case_id": "banknote_card_coin",
+      "observed_operations": 4.666666666666667,
+      "reference_duration": 19.511111333333336,
+      "score": 67.2906307522313,
+      "domain": "Others",
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "candle_lighter",
+      "observed_operations": 4.0,
+      "reference_duration": 25.975333333333335,
+      "score": 56.55932371717863,
+      "domain": "Household Org/Storage",
+      "families": [
+        "A1",
+        "A2",
+        "A9"
+      ]
+    },
+    {
+      "case_id": "coffee_beans",
+      "observed_operations": 5.0,
+      "reference_duration": 23.651666666666667,
+      "score": 64.54425639452629,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A3",
+        "A6"
+      ]
+    },
+    {
+      "case_id": "cooking_oil",
+      "observed_operations": 4.0,
+      "reference_duration": 24.997222333333337,
+      "score": 50.997952760611064,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A3",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "case_id": "cut_chocolate_bar",
+      "observed_operations": 8.333333333333334,
+      "reference_duration": 46.22555533333334,
+      "score": 59.936534180634325,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A8"
+      ]
+    },
+    {
+      "case_id": "desk_mat_tablet",
+      "observed_operations": 4.0,
+      "reference_duration": 26.53333333333333,
+      "score": 74.91765848669691,
+      "domain": "Office/Study Workspace",
+      "families": [
+        "A1",
+        "A5"
+      ]
+    },
+    {
+      "case_id": "dish_washdry",
+      "observed_operations": 11.0,
+      "reference_duration": 54.865922000000005,
+      "score": 62.1346384856565,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A1",
+        "A6",
+        "A7",
+        "A9"
+      ]
+    },
+    {
+      "case_id": "double_shoe_box",
+      "observed_operations": 5.0,
+      "reference_duration": 14.255307666666667,
+      "score": 69.37609646814602,
+      "domain": "Household Org/Storage",
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "egg_candy_air_fryer",
+      "observed_operations": 5.0,
+      "reference_duration": 23.36999966666667,
+      "score": 82.63794559867837,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "egg_sauce_container",
+      "observed_operations": 7.333333333333333,
+      "reference_duration": 19.166129666666667,
+      "score": 71.84700890530843,
+      "domain": "Kitchen/Food Prep",
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "handcuffs_stethoscope",
+      "observed_operations": 5.0,
+      "reference_duration": 44.63499999999999,
+      "score": 77.61278609018788,
+      "domain": "Others",
+      "families": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "kendama_can",
+      "observed_operations": 3.3333333333333335,
+      "reference_duration": 16.005261,
+      "score": 60.970856384318886,
+      "domain": "Personal Care/Utilities",
+      "families": [
+        "A1",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "case_id": "key_lanyard",
+      "observed_operations": 5.0,
+      "reference_duration": 20.333333333333332,
+      "score": 56.91339352983386,
+      "domain": "Household Org/Storage",
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "laptop_open",
+      "observed_operations": 2.6666666666666665,
+      "reference_duration": 10.076733333333333,
+      "score": 49.42178683504403,
+      "domain": "Office/Study Workspace",
+      "families": [
+        "A1",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "line_marker_calculator",
+      "observed_operations": 8.666666666666666,
+      "reference_duration": 38.29557766666667,
+      "score": 61.56255566998094,
+      "domain": "Office/Study Workspace",
+      "families": [
+        "A1",
+        "A3",
+        "A5",
+        "A7"
+      ]
+    },
+    {
+      "case_id": "paper_binder_book",
+      "observed_operations": 8.666666666666666,
+      "reference_duration": 25.188889,
+      "score": 58.00945980031578,
+      "domain": "Office/Study Workspace",
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "racket_backpack",
+      "observed_operations": 5.0,
+      "reference_duration": 24.566666333333334,
+      "score": 64.29080804494087,
+      "domain": "Others",
+      "families": [
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "remote_marker_stand",
+      "observed_operations": 4.333333333333333,
+      "reference_duration": 16.765922333333336,
+      "score": 81.66271537321329,
+      "domain": "Office/Study Workspace",
+      "families": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "case_id": "sanitary_face_wash",
+      "observed_operations": 7.0,
+      "reference_duration": 19.022222333333332,
+      "score": 67.04201436652299,
+      "domain": "Personal Care/Utilities",
+      "families": [
+        "A2",
+        "A3"
+      ]
+    },
+    {
+      "case_id": "sock_bucket",
+      "observed_operations": 4.0,
+      "reference_duration": 10.800000333333335,
+      "score": 72.2715919354885,
+      "domain": "Household Org/Storage",
+      "families": [
+        "A1",
+        "A2",
+        "A5"
+      ]
+    },
+    {
+      "case_id": "stack_blocks",
+      "observed_operations": 3.0,
+      "reference_duration": 12.798888666666665,
+      "score": 50.83171345158087,
+      "domain": "Others",
+      "families": [
+        "A1",
+        "A4"
+      ]
+    },
+    {
+      "case_id": "toothbrush_case",
+      "observed_operations": 5.666666666666667,
+      "reference_duration": 20.525000000000002,
+      "score": 63.63885110964339,
+      "domain": "Personal Care/Utilities",
+      "families": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ]
+    },
+    {
+      "case_id": "toothpaste_water",
+      "observed_operations": 5.666666666666667,
+      "reference_duration": 11.822222333333334,
+      "score": 63.81433488559951,
+      "domain": "Personal Care/Utilities",
+      "families": [
+        "A3",
+        "A6",
+        "A7",
+        "A9"
+      ]
+    }
+  ],
+  "judge_error_cases": 26
+}

@@ -1,0 +1,150 @@
+{
+  "videos_scored": 371,
+  "alignment": [
+    {
+      "axis": "task",
+      "scoring": "sequential",
+      "n": 371,
+      "pearson": 0.6398125123261231,
+      "kendall_tau": 0.4706878716463575,
+      "ccc": 0.6131673794862658,
+      "mae": 19.715312540110382,
+      "bias": 8.32815641980062
+    },
+    {
+      "axis": "task",
+      "scoring": "independent",
+      "n": 371,
+      "pearson": 0.6394143621882258,
+      "kendall_tau": 0.46670702595458075,
+      "ccc": 0.5913915140131277,
+      "mae": 20.632866983271295,
+      "bias": 11.78107217729859
+    },
+    {
+      "axis": "physics",
+      "scoring": "sequential",
+      "n": 351,
+      "pearson": 0.543105609298613,
+      "kendall_tau": 0.3838869760141205,
+      "ccc": 0.4371423889707971,
+      "mae": 29.763821055487725,
+      "bias": 23.245166870166877
+    },
+    {
+      "axis": "physics",
+      "scoring": "independent",
+      "n": 351,
+      "pearson": 0.535777917639234,
+      "kendall_tau": 0.3838019539528597,
+      "ccc": 0.3252016114873029,
+      "mae": 33.79705942205942,
+      "bias": 31.226105684439013
+    },
+    {
+      "axis": "final",
+      "scoring": "sequential",
+      "n": 362,
+      "pearson": 0.6888950819392963,
+      "kendall_tau": 0.46393494553210846,
+      "ccc": 0.6152493325533726,
+      "mae": 22.1110249724452,
+      "bias": 15.282073846445755
+    },
+    {
+      "axis": "final",
+      "scoring": "independent",
+      "n": 362,
+      "pearson": 0.6534948152320984,
+      "kendall_tau": 0.43497452942774883,
+      "ccc": 0.5085175037254384,
+      "mae": 26.066218812512723,
+      "bias": 22.010223710985542
+    }
+  ],
+  "bootstrap": {
+    "task": {
+      "mae": {
+        "difference": 0.9175544431609133,
+        "low": 0.24954530423280374,
+        "high": 1.6286463454605027,
+        "resamples": 1000,
+        "cases": 26
+      },
+      "pearson": {
+        "difference": -0.0003981501378973462,
+        "low": -0.015856998101028474,
+        "high": 0.01814068379904943,
+        "resamples": 1000,
+        "cases": 26
+      }
+    },
+    "physics": {
+      "mae": {
+        "difference": 4.033238366571695,
+        "low": 2.5583573487031686,
+        "high": 5.429386823222444,
+        "resamples": 1000,
+        "cases": 26
+      },
+      "pearson": {
+        "difference": -0.007327691659378965,
+        "low": -0.03474242201392452,
+        "high": 0.02094582430973191,
+        "resamples": 1000,
+        "cases": 26
+      }
+    },
+    "final": {
+      "mae": {
+        "difference": 3.9551938400675226,
+        "low": 3.0775370179455237,
+        "high": 4.9253806902591535,
+        "resamples": 1000,
+        "cases": 26
+      },
+      "pearson": {
+        "difference": -0.03540026670719787,
+        "low": -0.060809449998596055,
+        "high": -0.011241032489433644,
+        "resamples": 1000,
+        "cases": 26
+      }
+    }
+  },
+  "inflation": {
+    "task": {
+      "n": 371,
+      "mean_ind_minus_seq": 3.452915757497968,
+      "share_videos_ind_gt_seq": 0.2587601078167116
+    },
+    "physics": {
+      "n": 354,
+      "mean_ind_minus_seq": 8.054546677428034,
+      "share_videos_ind_gt_seq": 0.3672316384180791
+    },
+    "final": {
+      "n": 363,
+      "mean_ind_minus_seq": 6.759910935390928,
+      "share_videos_ind_gt_seq": 0.4793388429752066
+    }
+  },
+  "subgoal_disagreement": {
+    "task": {
+      "subgoals": 1516,
+      "ind_gt_seq": 138,
+      "share_ind_gt_seq": 0.09102902374670185,
+      "ind_lt_seq": 0,
+      "videos": 371,
+      "share_videos_with_any_difference": 0.2587601078167116
+    },
+    "physics": {
+      "subgoals": 1302,
+      "ind_gt_seq": 245,
+      "share_ind_gt_seq": 0.1881720430107527,
+      "ind_lt_seq": 0,
+      "videos": 361,
+      "share_videos_with_any_difference": 0.37119113573407203
+    }
+  }
+}

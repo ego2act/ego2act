@@ -1,0 +1,248 @@
+{
+  "heldout": {
+    "videos": 351,
+    "cases": 26,
+    "selected_per_fold": [
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash"
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "test_cases": 6,
+        "train_r": {
+          "flash": 0.698230038086479,
+          "terra": 0.6129750355352228
+        },
+        "selected": "flash",
+        "heldout_r_selected": 0.6816616572115706
+      },
+      {
+        "fold": 1,
+        "test_cases": 5,
+        "train_r": {
+          "flash": 0.7134485748078688,
+          "terra": 0.6191866504445557
+        },
+        "selected": "flash",
+        "heldout_r_selected": 0.5734606633201907
+      },
+      {
+        "fold": 2,
+        "test_cases": 5,
+        "train_r": {
+          "flash": 0.6966620459687785,
+          "terra": 0.6198776410242611
+        },
+        "selected": "flash",
+        "heldout_r_selected": 0.6908507329131707
+      },
+      {
+        "fold": 3,
+        "test_cases": 5,
+        "train_r": {
+          "flash": 0.688299531611262,
+          "terra": 0.5864918359995089
+        },
+        "selected": "flash",
+        "heldout_r_selected": 0.7358647026895685
+      },
+      {
+        "fold": 4,
+        "test_cases": 5,
+        "train_r": {
+          "flash": 0.6743159983392764,
+          "terra": 0.6050920911334454
+        },
+        "selected": "flash",
+        "heldout_r_selected": 0.7741219036542993
+      }
+    ],
+    "pooled_heldout": {
+      "selected": {
+        "n": 351,
+        "pearson": 0.694218817089561,
+        "kendall_tau": null,
+        "ccc": 0.6129786620452915,
+        "mae": 22.10394000837152,
+        "bias": 15.851932756070475
+      },
+      "flash": {
+        "n": 351,
+        "pearson": 0.694218817089561,
+        "kendall_tau": null,
+        "ccc": 0.6129786620452915,
+        "mae": 22.10394000837152,
+        "bias": 15.851932756070475
+      },
+      "terra": {
+        "n": 351,
+        "pearson": 0.6087961519955384,
+        "kendall_tau": null,
+        "ccc": 0.5678321760180053,
+        "mae": 24.704514032106484,
+        "bias": 10.841350064969241
+      }
+    }
+  },
+  "coverage": {
+    "grok_imagine_video_1_5": {
+      "videos": 324,
+      "task": 1.0,
+      "physics": 0.9938271604938271,
+      "final": 0.9969135802469136,
+      "final_missing": 0.0030864197530864335,
+      "unattempted_zero": 0.0030864197530864196,
+      "task_status": {
+        "ok": 324
+      },
+      "physics_status": {
+        "ok": 324
+      }
+    },
+    "seedance_2_0": {
+      "videos": 327,
+      "task": 1.0,
+      "physics": 0.9877675840978594,
+      "final": 0.9877675840978594,
+      "final_missing": 0.012232415902140636,
+      "unattempted_zero": 0.0,
+      "task_status": {
+        "ok": 327
+      },
+      "physics_status": {
+        "ok": 327
+      }
+    },
+    "kling_v3_pro": {
+      "videos": 327,
+      "task": 1.0,
+      "physics": 0.9602446483180428,
+      "final": 0.9694189602446484,
+      "final_missing": 0.030581039755351647,
+      "unattempted_zero": 0.009174311926605505,
+      "task_status": {
+        "ok": 327
+      },
+      "physics_status": {
+        "ok": 327
+      }
+    },
+    "wan_2_7": {
+      "videos": 327,
+      "task": 1.0,
+      "physics": 0.9847094801223242,
+      "final": 0.9908256880733946,
+      "final_missing": 0.00917431192660545,
+      "unattempted_zero": 0.0061162079510703364,
+      "task_status": {
+        "ok": 327
+      },
+      "physics_status": {
+        "ok": 327
+      }
+    },
+    "minimax_h3": {
+      "videos": 327,
+      "task": 1.0,
+      "physics": 0.9571865443425076,
+      "final": 0.9847094801223242,
+      "final_missing": 0.015290519877675823,
+      "unattempted_zero": 0.027522935779816515,
+      "task_status": {
+        "ok": 327
+      },
+      "physics_status": {
+        "ok": 327
+      }
+    },
+    "cosmos_3": {
+      "videos": 327,
+      "task": 1.0,
+      "physics": 0.6146788990825688,
+      "final": 0.9785932721712538,
+      "final_missing": 0.021406727828746197,
+      "unattempted_zero": 0.363914373088685,
+      "task_status": {
+        "ok": 327
+      },
+      "physics_status": {
+        "ok": 327
+      }
+    },
+    "human_reference": {
+      "videos": 305,
+      "task": 1.0,
+      "physics": 1.0,
+      "final": 1.0,
+      "final_missing": 0.0,
+      "unattempted_zero": 0.0,
+      "task_status": {
+        "ok": 305
+      },
+      "physics_status": {
+        "ok": 305
+      }
+    },
+    "human_wrong": {
+      "videos": 299,
+      "task": 1.0,
+      "physics": 0.9866220735785953,
+      "final": 0.9899665551839465,
+      "final_missing": 0.010033444816053505,
+      "unattempted_zero": 0.0033444816053511705,
+      "task_status": {
+        "ok": 299
+      },
+      "physics_status": {
+        "ok": 299
+      }
+    },
+    "all": {
+      "videos": 2563,
+      "final": 0.9871244635193133,
+      "final_missing": 0.012875536480686733
+    }
+  },
+  "panel": {
+    "grok_imagine_video_1_5": {
+      "judge_panel_all": 74.73331923852437,
+      "judge_panel_matched": 72.92280228830677,
+      "human_panel_matched": 49.89096245405819,
+      "matched_videos": 64
+    },
+    "seedance_2_0": {
+      "judge_panel_all": 87.04919434569878,
+      "judge_panel_matched": 88.03667301957677,
+      "human_panel_matched": 64.29776434448905,
+      "matched_videos": 61
+    },
+    "kling_v3_pro": {
+      "judge_panel_all": 74.91002139965832,
+      "judge_panel_matched": 76.68475849647037,
+      "human_panel_matched": 59.55861029808575,
+      "matched_videos": 60
+    },
+    "wan_2_7": {
+      "judge_panel_all": 70.53792049709932,
+      "judge_panel_matched": 68.62522742029789,
+      "human_panel_matched": 44.28202910180429,
+      "matched_videos": 65
+    },
+    "minimax_h3": {
+      "judge_panel_all": 68.16632852275798,
+      "judge_panel_matched": 70.72615982332958,
+      "human_panel_matched": 55.25633581120306,
+      "matched_videos": 56
+    },
+    "cosmos_3": {
+      "judge_panel_all": 15.947764885117444,
+      "judge_panel_matched": 14.423609869590704,
+      "human_panel_matched": 3.9500437519429847,
+      "matched_videos": 64
+    }
+  }
+}
